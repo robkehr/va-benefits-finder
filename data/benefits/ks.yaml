@@ -1,0 +1,19 @@
+- id: ks-disabled-veteran-sales-tax-exemption
+  name: Disabled Veteran Sales Tax Exemption
+  state: KS
+  scope: state
+  counties: all
+  category: financial
+  summary: Effective July 1, 2026, qualifying purchases of tangible personal property and services are exempt from Kansas retailers' sales tax up to an annual limit. Motor vehicles, alcohol, tobacco, e-cigarettes, and related consumables are excluded; exempt purchases must be for personal use.
+  value: Up to $24,000 in qualifying purchases per eligible person per year
+  eligibility:
+    who: [veteran, surviving_spouse]
+    discharge: [honorable]
+    other_requirements:
+      - Applicant must be a Kansas resident and VA-certified as having a permanent 100% disability or being totally disabled or unemployable due to a qualifying disability sustained through military action or accident, or disease contracted in active service. A qualifying surviving spouse may continue the exemption until remarriage.
+  how_to_apply:
+    - Apply to the Kansas Secretary of Revenue for a veteran exemption identification number and exemption certificate card. Present the card or number when claiming the exemption.
+  application_url: https://ksrevisor.gov/statutes/chapters/ch79/079_036_0006h.html
+  source_url: https://ksrevisor.gov/statutes/chapters/ch79/079_036_0006h.html
+  source_name: Kansas Statutes — Section 79-3606h, Disabled Veteran Sales Tax Exemption
+  last_verified: 2026-11-05

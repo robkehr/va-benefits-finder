@@ -1,0 +1,36 @@
+- id: ne-veterans-aid-fund
+  name: Nebraska Veterans Aid Fund
+  state: NE
+  scope: state
+  counties: all
+  category: financial
+  summary: Provides temporary emergency aid when an emergency disrupts normal living arrangements and other resources are not immediately available. Covered needs include listed items such as food, shelter, transportation, and medical items.
+  value: Temporary emergency aid; amount depends on need and program rules
+  eligibility:
+    who: [veteran, spouse, surviving_spouse, dependent_child]
+    other_requirements:
+      - The state defines eligible veterans to include those honorably or generally discharged, those who died in service or as a direct result of service, and certain U.S. citizens who served with allied forces.
+  how_to_apply:
+    - Apply through a State Service Officer, County Veterans Service Officer, or recognized veterans organization's Post Service Officer.
+  application_url: https://veterans.nebraska.gov/nebraska-veterans-aid-fund-nva
+  source_url: https://veterans.nebraska.gov/nebraska-veterans-aid-fund-nva
+  source_name: Nebraska Department of Veterans' Affairs — Nebraska Veterans Aid Fund
+  last_verified: 2026-11-05
+- id: ne-veterans-tuition-waiver
+  name: Waiver of Tuition
+  state: NE
+  scope: state
+  counties: all
+  category: education
+  summary: Waives 100% of tuition charges and tuition-related fees at participating University of Nebraska campuses, state colleges, and community colleges. It does not cover housing, food, parking, or other non-tuition costs.
+  value: 100% of qualifying tuition charges and tuition-related fees
+  eligibility:
+    who: [veteran, spouse, dependent_child]
+    other_requirements:
+      - The veteran must meet one of the source's qualifying conditions, including 100% permanent-and-total service-connected disability, specified service-related deaths, or missing-in-action/prisoner-of-war status. The student must be a Nebraska resident at a participating school; dependent and degree limits apply.
+  how_to_apply:
+    - Submit the downloadable application in time for processing and certification before the school term begins.
+  application_url: https://veterans.nebraska.gov/waiver-tuition-program
+  source_url: https://veterans.nebraska.gov/waiver-tuition-program
+  source_name: Nebraska Department of Veterans' Affairs — Waiver of Tuition
+  last_verified: 2026-11-05

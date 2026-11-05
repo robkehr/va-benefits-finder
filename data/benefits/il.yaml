@@ -1,0 +1,18 @@
+- id: il-disabled-veteran-hunting-fishing-license-exemption
+  name: Free Hunting and Fishing License or Privilege for Disabled Veterans
+  state: IL
+  scope: state
+  counties: all
+  category: recreation
+  summary: Qualifying disabled veterans do not need to purchase Illinois hunting and fishing licenses. The state page says this applies regardless of state residency.
+  value: Hunting and fishing license exemption
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - The state page lists veterans receiving at least 10% service-connected compensation or a total-disability pension. Verify the qualifying documentation with IDVA.
+  how_to_apply:
+    - Contact a local IDVA Veteran Service Office for the required Disability Affidavit. The page lists a DD-214 and current VA compensation or pension verification as required documents.
+  application_url: https://veterans.illinois.gov/services-benefits/permits.html
+  source_url: https://veterans.illinois.gov/services-benefits/permits.html
+  source_name: Illinois Department of Veterans' Affairs — Fishing and Hunting Permits
+  last_verified: 2026-11-05

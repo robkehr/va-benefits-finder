@@ -1,0 +1,19 @@
+- id: wv-disabled-or-older-homeowner-homestead-exemption
+  name: Twenty Thousand Dollar Homestead Exemption That May Apply to Veterans
+  state: WV
+  scope: state
+  counties: all
+  category: property_tax
+  summary: This is a general disabled-homeowner or older-homeowner exemption, not a veterans-only program. It can apply to a veteran who is at least 65 or certified permanently and totally disabled, if the owner occupies the homestead exclusively as a residence and meets residency rules.
+  value: $20,000 homestead exemption, subject to program rules
+  eligibility:
+    who: [veteran]
+    requires_homeowner: true
+    other_requirements:
+      - The military-specific residency provision covers a person who was a West Virginia resident when entering military service, maintained the state as their residence during service, and returned after retirement or earlier separation due to permanent and total disability. The owner must meet the age or disability conditions and may not receive a similar homestead exemption in another state.
+  how_to_apply:
+    - Submit an application and sworn affidavit; contact the county assessor for the filing office and current forms.
+  application_url: https://code.wvlegislature.gov/11-6B-3/
+  source_url: https://code.wvlegislature.gov/11-6B-3/
+  source_name: West Virginia Code — Section 11-6B-3, Twenty Thousand Dollar Homestead Exemption
+  last_verified: 2026-11-05

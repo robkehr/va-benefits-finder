@@ -1,0 +1,18 @@
+- id: mi-children-veterans-tuition-grant
+  name: Michigan Children of Veterans Tuition Grant
+  state: MI
+  scope: state
+  counties: all
+  category: education
+  summary: Provides undergraduate tuition assistance to a veteran's child if the veteran died while on active federal duty or has a VA total-and-permanent disability rating.
+  value: Undergraduate tuition assistance; amount depends on program rules
+  eligibility:
+    who: [dependent_child]
+    other_requirements:
+      - The veteran must have died while on active federal duty or have a VA total-and-permanent disability rating.
+  how_to_apply:
+    - Contact the Michigan Department of Treasury using the phone number listed on the program page for current application information.
+  application_url: https://www.michigan.gov/mvaa/education/resources-for-veterans-and-family-members/fam-ben
+  source_url: https://www.michigan.gov/mvaa/education/resources-for-veterans-and-family-members/fam-ben
+  source_name: Michigan Veterans Affairs Agency — Benefits for Family Members
+  last_verified: 2026-11-05

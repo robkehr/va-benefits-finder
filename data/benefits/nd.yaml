@@ -1,0 +1,19 @@
+- id: nd-disabled-veteran-property-tax-credit
+  name: Disabled Veteran's Property Tax Credit
+  state: ND
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Reduces taxable valuation on a veteran's homestead by an amount tied to disability rating. The state lists a maximum reduction from $4,500 at a 50% rating to $9,000 at 100%.
+  value: Taxable-valuation reduction up to $9,000, depending on rating
+  eligibility:
+    who: [veteran, surviving_spouse]
+    requires_homeowner: true
+    other_requirements:
+      - Requires a service-connected disability rating of at least 50%, or an extra-schedular/individual-unemployability rating paid at the 100% rate; qualifying discharge or retirement; and an ownership interest in and residence at the property. The state page also specifies surviving-spouse eligibility.
+  how_to_apply:
+    - The state says the credit is automatically applied for those who qualify; contact the county assessor if it is not reflected.
+  application_url: https://www.tax.nd.gov/disabled-veterans-property-tax-credit
+  source_url: https://www.tax.nd.gov/disabled-veterans-property-tax-credit
+  source_name: North Dakota Office of State Tax Commissioner — Disabled Veteran's Property Tax Credit
+  last_verified: 2026-11-05

@@ -1,0 +1,38 @@
+- id: ri-veterans-property-tax-exemption
+  name: Veterans' Property Tax Exemption
+  state: RI
+  scope: municipal
+  counties: all
+  category: property_tax
+  summary: Rhode Island law provides a $1,000 property exemption for qualifying veterans; specific municipalities have different or additional provisions.
+  value: $1,000 statutory exemption; local provisions may differ
+  eligibility:
+    who: [veteran, surviving_spouse]
+    discharge: [honorable, general, oth, other]
+    other_requirements:
+      - Qualifying service includes the conflicts and other service described in state law. An unmarried surviving spouse may also qualify. Check local municipal provisions and confirm the applicable discharge standard.
+  how_to_apply:
+    - Contact the local tax assessor to confirm municipal provisions and application steps; the statute does not specify a filing procedure.
+  application_url: https://webserver.rilegislature.gov/Statutes/TITLE44/44-3/44-3-4.htm
+  source_url: https://webserver.rilegislature.gov/Statutes/TITLE44/44-3/44-3-4.htm
+  source_name: Rhode Island General Laws — Section 44-3-4, Veterans' Exemptions
+  last_verified: 2026-11-05
+- id: ri-disabled-american-veterans-tuition-waiver
+  name: Disabled American Veterans Tuition Waiver
+  state: RI
+  scope: state
+  counties: all
+  category: education
+  summary: Eligible Rhode Island residents may receive a tuition waiver; other required fees remain payable.
+  value: Tuition waived; other required fees remain payable
+  eligibility:
+    who: [veteran]
+    min_rating: 10
+    other_requirements:
+      - Requires Rhode Island residency and a VA service-related disability of at least 10%. Applicants must use financial aid first, including applying through FAFSA.
+  how_to_apply:
+    - Follow the University of Rhode Island application instructions and apply for financial aid through FAFSA.
+  application_url: https://web.uri.edu/veterans/benefits/disabled-american-veterans-tuition-waiver-dav/
+  source_url: https://web.uri.edu/veterans/benefits/disabled-american-veterans-tuition-waiver-dav/
+  source_name: University of Rhode Island — Disabled American Veterans Tuition Waiver
+  last_verified: 2026-11-05

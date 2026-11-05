@@ -1,0 +1,20 @@
+- id: hi-disabled-veteran-motor-vehicle-registration-exemption
+  name: Disabled Veteran Motor Vehicle Registration Fee Exemption
+  state: HI
+  scope: state
+  counties: all
+  category: vehicle
+  summary: Exempts $46 of the state vehicle registration fee for a qualifying veteran. The exemption applies to one vehicle and must be requested again each year.
+  value: $46 of the state registration fee
+  eligibility:
+    who: [veteran]
+    min_rating: 100
+    discharge: [honorable, general, oth, other]
+    other_requirements:
+      - Applicant must be a Hawaii resident with a VA-determined 100% service-connected disability rating and a discharge other than dishonorable.
+  how_to_apply:
+    - Request an exemption letter from the Office of Veterans' Services with proof of Hawaii residency, current vehicle registration, and a current VA 100% disability letter.
+  application_url: https://dod.hawaii.gov/ovs/benefits-and-services/
+  source_url: https://dod.hawaii.gov/ovs/benefits-and-services/
+  source_name: Hawaii Office of Veterans' Services — Benefits and Services
+  last_verified: 2026-11-05

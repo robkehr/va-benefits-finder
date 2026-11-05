@@ -1,0 +1,59 @@
+- id: fl-total-permanent-disabled-veteran-homestead-exemption
+  name: Homestead Exemption for a Veteran with Total and Permanent Service-Connected Disability
+  state: FL
+  scope: state
+  counties: all
+  category: property_tax
+  summary: A qualifying veteran may receive a total exemption from ad valorem taxes on homestead property. The state guide also describes a similar exemption for certain veterans confined to wheelchairs.
+  value: Total exemption from ad valorem taxes on qualifying homestead property
+  eligibility:
+    who: [veteran]
+    requires_homeowner: true
+    discharge: [honorable]
+    other_requirements:
+      - Requires Florida residency and a total, permanent, service-related disability; the official guide describes a separate wheelchair-related pathway. Confirm detailed criteria with the county property appraiser.
+  how_to_apply:
+    - Apply through the county property appraiser and consult the state application guidance for current documents and deadlines.
+  application_url: https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx
+  source_url: https://floridarevenue.com/property/Documents/pt109.pdf
+  source_name: Florida Department of Revenue — Property Tax Benefits for Active Duty Military and Veterans (PT-109)
+  last_verified: 2026-11-05
+- id: fl-disabled-veteran-assessed-value-reduction
+  name: Property Assessment Reduction for Qualifying Disabled Veterans
+  state: FL
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Provides a $5,000 reduction in assessed property value for a qualifying disabled veteran; the state guide says it is not limited to homestead property.
+  value: $5,000 reduction in assessed value
+  eligibility:
+    who: [veteran, surviving_spouse]
+    min_rating: 10
+    discharge: [honorable]
+    other_requirements:
+      - Requires Florida residency and disability of at least 10% due to misfortune or wartime service. The state guide describes carryover for certain surviving spouses. Confirm details with the county property appraiser.
+  how_to_apply:
+    - Apply through the county property appraiser and consult the state application guidance for current documents and deadlines.
+  application_url: https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx
+  source_url: https://floridarevenue.com/property/Documents/pt109.pdf
+  source_name: Florida Department of Revenue — Property Tax Benefits for Active Duty Military and Veterans (PT-109)
+  last_verified: 2026-11-05
+- id: fl-veteran-age-65-homestead-discount
+  name: Homestead Discount for Certain Veterans Age 65 or Older
+  state: FL
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Provides a homestead assessment discount for certain veterans age 65 or older with partial or total permanent disability; the discount is tied to the VA-determined percentage of service-connected disability.
+  value: Discount based on VA-determined disability percentage
+  eligibility:
+    who: [veteran, surviving_spouse]
+    requires_homeowner: true
+    other_requirements:
+      - Requires age 65 or older, Florida residency, a permanent disability, and other criteria described in the state guide. Certain surviving spouses may continue the discount under listed conditions.
+  how_to_apply:
+    - Apply through the county property appraiser and consult the state application guidance for current documents and deadlines.
+  application_url: https://floridarevenue.com/property/Pages/Taxpayers_Exemptions.aspx
+  source_url: https://floridarevenue.com/property/Documents/pt109.pdf
+  source_name: Florida Department of Revenue — Property Tax Benefits for Active Duty Military and Veterans (PT-109)
+  last_verified: 2026-11-05

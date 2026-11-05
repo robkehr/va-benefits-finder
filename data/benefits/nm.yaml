@@ -1,0 +1,53 @@
+- id: nm-veterans-hiring-preference
+  name: New Mexico Personnel Office Veterans Hiring Preference
+  state: NM
+  scope: state
+  counties: all
+  category: employment
+  summary: Adds preference points to passing screening-exam scores for qualifying veterans and current National Guard members.
+  value: Five points for honorably discharged veterans; ten points for honorably discharged veterans with a service-connected disability
+  eligibility:
+    who: [veteran]
+    discharge: [honorable]
+    other_requirements:
+      - The state page also lists current National Guard members; see the official source for the preference details and screening-exam requirements.
+  how_to_apply:
+    - Review the State Personnel Office screening examinations and veterans preference instructions.
+  application_url: https://www.nmdvs.org/benefits/
+  source_url: https://www.nmdvs.org/benefits/
+  source_name: New Mexico Department of Veterans' Services — Other State Benefits
+  last_verified: 2026-11-05
+- id: nm-recently-returned-veteran-employer-tax-credit
+  name: Business Tax Credit for Hiring Recently Returned Veterans
+  state: NM
+  scope: state
+  counties: all
+  category: employment
+  summary: A New Mexico business may qualify for a tax credit for hiring a recently returned veteran. This is a business tax credit, not a payment to the veteran.
+  value: Up to $1,000 per hire, as stated on the state veterans-services page
+  eligibility:
+    other_requirements:
+      - The credit is for qualifying businesses; confirm current requirements with the New Mexico Taxation and Revenue Department.
+  how_to_apply:
+    - Contact the New Mexico Taxation and Revenue Department for current eligibility and claiming instructions.
+  application_url: https://www.nmdvs.org/benefits/
+  source_url: https://www.nmdvs.org/benefits/
+  source_name: New Mexico Department of Veterans' Services — Other State Benefits
+  last_verified: 2026-11-05
+- id: nm-special-macarthur-service-medal
+  name: Special MacArthur Service Medal
+  state: NM
+  scope: state
+  counties: all
+  category: other
+  summary: A New Mexico recognition medal for qualifying members of the 200th or 515th Coast Artillery Units who served under General MacArthur in the Philippine Islands during World War II; surviving family members may also receive it.
+  value: State recognition medal
+  eligibility:
+    other_requirements:
+      - The service member must have been a New Mexico resident when entering service and served in a specified unit and theater during World War II. The source also identifies surviving family members.
+  how_to_apply:
+    - Contact the New Mexico Department of Veterans' Services to ask about current application instructions.
+  application_url: https://www.nmdvs.org/benefits/
+  source_url: https://www.nmdvs.org/benefits/
+  source_name: New Mexico Department of Veterans' Services — Other State Benefits
+  last_verified: 2026-11-05

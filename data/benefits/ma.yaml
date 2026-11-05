@@ -1,0 +1,18 @@
+- id: ma-veterans-property-tax-exemption
+  name: Veterans' Property Tax Exemption
+  state: MA
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Massachusetts law provides a property-tax exemption for qualifying veterans' domiciles.
+  value: Property-tax exemption under the qualifying statutory category
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Qualifying cases include a service-related disability rating of at least 10% or receipt of the Purple Heart. The veteran must be a Massachusetts legal resident, have a last discharge other than dishonorable, and meet the statute's domicile and residency requirements.
+  how_to_apply:
+    - Contact the local assessor about application procedures and documentation.
+  application_url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter59/Section5
+  source_url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter59/Section5
+  source_name: "Massachusetts General Laws — Chapter 59, Section 5: Property Exemptions"
+  last_verified: 2026-11-05

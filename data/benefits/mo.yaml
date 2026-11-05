@@ -1,0 +1,19 @@
+- id: mo-returning-heroes-education-act
+  name: Missouri Returning Heroes' Education Act
+  state: MO
+  scope: state
+  counties: all
+  category: education
+  summary: Limits tuition at participating public institutions to $50 per credit hour for qualifying combat veterans in certificate, associate, or bachelor's programs; graduate tuition is limited to no more than 30% of tuition and fees.
+  value: $50 per credit hour for qualifying undergraduate programs; graduate tuition limited to 30% of tuition and fees
+  eligibility:
+    who: [veteran]
+    discharge: [honorable]
+    other_requirements:
+      - Must document combat service and be eligible to vote in Missouri or be a current Missouri resident. Undergraduate students also need a cumulative GPA of at least 2.5; time limits apply after discharge.
+  how_to_apply:
+    - Contact the participating public institution about its procedure; the cited statute does not specify application steps.
+  application_url: https://revisor.mo.gov/main/OneSection.aspx?section=173.900
+  source_url: https://revisor.mo.gov/main/OneSection.aspx?section=173.900
+  source_name: Missouri Revised Statutes — Section 173.900
+  last_verified: 2026-11-05

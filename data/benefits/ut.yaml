@@ -1,0 +1,38 @@
+- id: ut-disabled-veteran-property-tax-exemption
+  name: Veteran with a Disability Property Tax Exemption
+  state: UT
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Provides a property-tax exemption based on disability percentage; the official application describes a full current-year exemption for a veteran rated 100%, a proportionate exemption for a lesser rating, and no exemption below 10%.
+  value: Proportionate exemption based on disability rating, up to a full current-year exemption
+  eligibility:
+    who: [veteran, surviving_spouse]
+    min_rating: 10
+    other_requirements:
+      - The initial application requires a military-entity statement showing the percentage of disability incurred or aggravated in the line of duty during war, international conflict, or military training. The form also lists unmarried surviving spouses and minor orphans among potential claimants.
+  how_to_apply:
+    - File Form PT-025 with the county of residence by September 1; the county may request residency verification.
+  application_url: https://files.tax.utah.gov/propertytax/form/pt-025.pdf
+  source_url: https://files.tax.utah.gov/propertytax/form/pt-025.pdf
+  source_name: Utah State Tax Commission — Veteran with a Disability Property Tax Exemption Application (PT-025)
+  last_verified: 2026-11-05
+- id: ut-resident-disabled-veteran-hunting-fishing-license
+  name: Discounted Hunting, Fishing, or Combination License for Resident Veterans with Disabilities
+  state: UT
+  scope: state
+  counties: all
+  category: recreation
+  summary: Utah Division of Wildlife Resources lists discounted hunting, fishing, or combination licenses for resident veterans with qualifying service-connected disabilities.
+  value: Discounted license; amount depends on license selected
+  eligibility:
+    who: [veteran]
+    min_rating: 20
+    other_requirements:
+      - Requires Utah residency and a service-connected disability. Confirm license types and current discount with DWR.
+  how_to_apply:
+    - Apply online through the link on the Utah Division of Wildlife Resources accessibility page.
+  application_url: https://wildlife.utah.gov/accessibility
+  source_url: https://wildlife.utah.gov/accessibility
+  source_name: Utah Division of Wildlife Resources — Hunting and Fishing Opportunities for People with Disabilities
+  last_verified: 2026-11-05

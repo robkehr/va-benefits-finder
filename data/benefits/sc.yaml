@@ -1,0 +1,39 @@
+- id: sc-veterans-children-free-tuition
+  name: Free Tuition for Certain Veterans' Children
+  state: SC
+  scope: state
+  counties: all
+  category: education
+  summary: A qualifying child of a wartime veteran may attend a state-supported college, university, or post-high-school technical education institution without tuition, while maintaining satisfactory work and conduct.
+  value: Tuition waived at eligible state-supported institutions
+  eligibility:
+    who: [dependent_child]
+    other_requirements:
+      - Student must be 26 or younger and pursuing an undergraduate degree. The veteran must have served honorably during a war period and meet at least one statutory condition, such as being killed in action, permanently and totally disabled, a prisoner of war, missing in action, or awarded the Medal of Honor or Purple Heart. Residency requirements apply.
+  how_to_apply:
+    - Apply to and obtain approval from the South Carolina Department of Veterans' Affairs.
+  application_url: https://www.scstatehouse.gov/code/t59c111.php
+  source_url: https://www.scstatehouse.gov/code/t59c111.php
+  source_name: South Carolina Code of Laws — Section 59-111-20, Free Tuition for Certain Veterans' Children
+  last_verified: 2026-11-05
+- id: sc-disabled-veteran-homestead-tax-exemption
+  name: Disabled Veteran Homestead Property Tax Exemption
+  state: SC
+  scope: state
+  counties: all
+  category: property_tax
+  summary: South Carolina law exempts the qualifying veteran's house from ad valorem taxation. The law also covers qualifying unmarried surviving spouses who live in and own the house, and certain surviving spouses of service members killed in action.
+  value: Exemption from ad valorem tax on qualifying house
+  eligibility:
+    who: [veteran, surviving_spouse]
+    min_rating: 100
+    p_and_t: true
+    requires_homeowner: true
+    other_requirements:
+      - The veteran must be permanently and totally disabled as a result of a service-connected disability. A county service officer must certify the disability; surviving-spouse conditions are specified in the law.
+  how_to_apply:
+    - Obtain the required certificate from the county service officer and file it with the South Carolina Department of Revenue.
+  application_url: https://www.scstatehouse.gov/code/t12c037.php
+  source_url: https://www.scstatehouse.gov/code/t12c037.php
+  source_name: South Carolina Code of Laws — Section 12-37-220, General Exemption from Taxes
+  last_verified: 2026-11-05

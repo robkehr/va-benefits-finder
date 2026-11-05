@@ -1,0 +1,37 @@
+- id: ia-disabled-veteran-homestead-tax-credit
+  name: Disabled Veteran Homestead Tax Credit
+  state: IA
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Provides a property-tax credit equal to the full amount of tax levied on an eligible homestead.
+  value: Credit equal to the full amount of property tax levied on an eligible homestead
+  eligibility:
+    who: [veteran, surviving_spouse, dependent_child]
+    requires_homeowner: true
+    other_requirements:
+      - Applicant must qualify for Iowa's homestead tax exemption and meet the definition of a qualifying disabled veteran, surviving spouse, or child under state law. For applications made on or after July 1, 2026, the source limits the homestead to one-half acre and excludes appurtenances.
+  how_to_apply:
+    - Submit the Disabled Veteran Homestead Tax Credit Application, form 54-049.
+  application_url: https://revenue.iowa.gov/taxes/tax-guidance/tax-credits-deductions-exemption/disabled-veteran-homestead-property-tax-credit
+  source_url: https://revenue.iowa.gov/taxes/tax-guidance/tax-credits-deductions-exemption/disabled-veteran-homestead-property-tax-credit
+  source_name: Iowa Department of Revenue — Disabled Veteran Homestead Property Tax Credit
+  last_verified: 2026-11-05
+- id: ia-military-retirement-benefits-exclusion
+  name: Military Retirement Benefits Exclusion
+  state: IA
+  scope: state
+  counties: all
+  category: financial
+  summary: Excludes qualifying military retirement benefits from Iowa individual income tax to the extent they are included in federal adjusted gross income. The state page also includes specified military survivor benefits.
+  value: Exclusion from Iowa individual income tax for qualifying military retirement income
+  eligibility:
+    who: [veteran, surviving_spouse]
+    other_requirements:
+      - The state page says the exclusion applies to residents and nonresidents and is not age-limited. Confirm current tax-year rules with the Iowa Department of Revenue.
+  how_to_apply:
+    - Follow the Iowa individual income tax return instructions; the source does not state a separate application.
+  application_url: https://revenue.iowa.gov/taxes/tax-guidance/individual-income-tax/military-tax-information
+  source_url: https://revenue.iowa.gov/taxes/tax-guidance/individual-income-tax/military-tax-information
+  source_name: Iowa Department of Revenue — Military Tax Information
+  last_verified: 2026-11-05

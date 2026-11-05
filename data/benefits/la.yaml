@@ -1,0 +1,56 @@
+- id: la-disabled-veteran-property-tax-exemption
+  name: Disabled Veteran Property Tax Exemption
+  state: LA
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Louisiana provides property-tax relief on a qualifying veteran's primary residence. The exemption increases with qualifying disability rating, with a full ad valorem exemption at a 100% rating, subject to municipal-assessment exceptions described by the state.
+  value: Property-tax exemption varies with disability rating; full ad valorem exemption at 100%, subject to stated exceptions
+  eligibility:
+    who: [veteran]
+    min_rating: 50
+    requires_homeowner: true
+    other_requirements:
+      - The state describes this for a service-connected disability and a primary residence. Review the official source for local assessment exceptions and current filing requirements.
+  how_to_apply:
+    - Review the Louisiana Department of Veterans Affairs state-benefits page and contact the parish veterans service office for local filing guidance.
+  application_url: https://vetaffairs.la.gov/benefits/state/
+  source_url: https://vetaffairs.la.gov/benefits/state/
+  source_name: Louisiana Department of Veterans Affairs — State Benefits
+  last_verified: 2026-11-05
+- id: la-title-29-in-state-tuition-exemption
+  name: Title 29 In-State Tuition Exemption
+  state: LA
+  scope: state
+  counties: all
+  category: education
+  summary: Provides an in-state tuition exemption for eligible veteran dependents at Louisiana schools.
+  value: In-state tuition exemption
+  eligibility:
+    who: [dependent_child, spouse, surviving_spouse]
+    other_requirements:
+      - Eligible groups include children of living veterans, spouses of veterans who are prisoners of war or missing in action, and spouses or children of deceased veterans, subject to residency and other requirements.
+  how_to_apply:
+    - Contact a parish veterans service office to schedule an appointment with a veterans assistance counselor. If approved, the counselor sends the certificate for processing.
+  application_url: https://vetaffairs.la.gov/education/title-29
+  source_url: https://vetaffairs.la.gov/education/title-29
+  source_name: Louisiana Department of Veterans Affairs — Title 29 In-State Tuition Exemption
+  last_verified: 2026-11-05
+- id: la-disabled-veteran-hunting-fishing-license
+  name: Free Hunting and Fishing Licenses
+  state: LA
+  scope: state
+  counties: all
+  category: recreation
+  summary: Eligible veterans may receive free hunting and fishing licenses, which must be renewed annually.
+  value: Free hunting and fishing licenses
+  eligibility:
+    who: [veteran]
+    min_rating: 50
+    p_and_t: true
+  how_to_apply:
+    - Review the Louisiana Department of Veterans Affairs state-benefits page for current license and annual renewal instructions.
+  application_url: https://vetaffairs.la.gov/benefits/state/
+  source_url: https://vetaffairs.la.gov/benefits/state/
+  source_name: Louisiana Department of Veterans Affairs — State Benefits
+  last_verified: 2026-11-05

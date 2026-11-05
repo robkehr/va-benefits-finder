@@ -1,0 +1,24 @@
+- id: pa-disabled-veteran-real-estate-tax-exemption
+  name: Disabled Veterans Real Estate Tax Exemption
+  state: PA
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Pennsylvania exempts the principal dwelling of qualifying 100% service-connected disabled veterans from real estate taxes. Each county administers the exemption and applies its own financial-need review; income limits are not published and are evaluated case by case.
+  value: Full exemption from real estate taxes on the principal residence
+  eligibility:
+    who: [veteran, surviving_spouse]
+    min_rating: 100
+    wartime_required: true
+    discharge: [honorable]
+    requires_homeowner: true
+    other_requirements:
+      - Must demonstrate financial need to the county; there is no single statewide income limit. Select a county on the map below for local details.
+      - On the veteran's death, the exemption may pass to a widowed spouse who demonstrates financial need.
+  how_to_apply:
+    - File DMVA form OVA-BVP-001 with the county board of assessment appeals or county veterans affairs office, including proof of income and expenses.
+  application_url: https://www.pa.gov/content/dam/copapwp-pagov/en/dmva/documents/veterans/vetconnect/documents/ova-bvp-001%20application%20for%20disabled%20veterans%20real%20estate%20tax%20exemption%20(oct%202026).pdf
+  source_url: https://www.pa.gov/content/dam/copapwp-pagov/en/dmva/documents/veterans/vetconnect/documents/ova-bvp-001%20application%20for%20disabled%20veterans%20real%20estate%20tax%20exemption%20(oct%202026).pdf
+  source_name: PA DMVA — Application for Disabled Veterans Real Estate Tax Exemption (OVA-BVP-001)
+  last_verified: 2026-11-05
+  notes: Statutory authority is 51 Pa.C.S. §§ 8901–8903, as referenced by county program pages.

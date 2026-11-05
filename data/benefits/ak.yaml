@@ -1,0 +1,18 @@
+- id: ak-dependent-tuition-waiver
+  name: Alaska Veterans' Dependent Tuition Waiver Program
+  state: AK
+  scope: state
+  counties: all
+  category: education
+  summary: Waives undergraduate tuition and fees through the University of Alaska system for eligible spouses and dependents of certain service members.
+  value: Undergraduate tuition and fees waived
+  eligibility:
+    who: [spouse, dependent_child]
+    other_requirements:
+      - The service member must have been an Alaska resident and died in the line of duty, been listed as a prisoner of war, or been killed in action.
+  how_to_apply:
+    - Review the University of Alaska application information or contact the Alaska Office of Veterans Affairs.
+  application_url: https://veterans.alaska.gov/education/
+  source_url: https://veterans.alaska.gov/education/
+  source_name: Alaska Office of Veterans Affairs — Education
+  last_verified: 2026-11-05

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f4ef">
+    <meta name="description" content="A practical due-diligence workspace for checking secondhand watch listings.">
+    <title>DialCheck — Watch listing due diligence</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="DialCheck home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="11.25"></circle>
+            <path d="M16 8.5v7.9l5.2 3.2M16 2.5v2M16 27.5v2M2.5 16h2M27.5 16h2"></path>
+          </svg>
+        </span>
+        <span>dial<span class="brand-light">check</span></span>
+      </a>
+      <div class="topbar-note"><span class="status-dot"></span> A clearer second opinion</div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p class="eyebrow"><span class="eyebrow-line"></span> THE PRE-PURCHASE DESK</p>
+        <h1>Before you buy,<br><span>check every detail.</span></h1>
+        <p class="intro-copy">A secondhand watch can be a great find. Start with the listing, then verify the seller, the watch, and the deal—before sending a cent.</p>
+      </section>
+
+      <section class="workspace" aria-label="Watch listing checker">
+        <div class="entry-card">
+          <div class="card-heading">
+            <div>
+              <p class="step-label">01 <span>— START WITH THE LISTING</span></p>
+              <h2>Paste a listing link</h2>
+            </div>
+            <span class="marketplace-note">Chrono24 <span aria-hidden="true">·</span> eBay</span>
+          </div>
+          <form id="listing-form" novalidate>
+            <label for="listing-url">Listing URL</label>
+            <div class="url-input-wrap">
+              <svg aria-hidden="true" viewBox="0 0 20 20" fill="none"><path d="M8.2 11.8a3.1 3.1 0 0 0 4.4 0l2.2-2.2a3.1 3.1 0 0 0-4.4-4.4L9.1 6.5M11.8 8.2a3.1 3.1 0 0 0-4.4 0l-2.2 2.2a3.1 3.1 0 0 0 4.4 4.4l1.3-1.3"/></svg>
+              <input id="listing-url" name="listingUrl" type="url" autocomplete="url" placeholder="https://www.chrono24.com/… or ebay.com/itm/…" required>
+              <button class="paste-button" id="paste-button" type="button" aria-label="Paste from clipboard">Paste</button>
+            </div>
+            <p class="field-error" id="url-error" role="alert" hidden></p>
+            <details class="extra-details">
+              <summary>Add details for more useful searches <span class="optional-label">OPTIONAL</span></summary>
+              <div class="extra-fields">
+                <div>
+                  <label for="watch-model">Watch brand, model, or reference</label>
+                  <input id="watch-model" name="watchModel" type="text" placeholder="e.g. Omega Speedmaster 310.30.42.50.01.001">
+                </div>
+                <div>
+                  <label for="seller-name">Seller username or shop name</label>
+                  <input id="seller-name" name="sellerName" type="text" placeholder="As shown on the listing">
+                </div>
+              </div>
+            </details>
+            <button class="analyze-button" type="submit">
+              <span>Review this listing</span>
+              <svg aria-hidden="true" viewBox="0 0 20 20" fill="none"><path d="M4.2 10h11.6m-4.8-4.8 4.8 4.8-4.8 4.8"/></svg>
+            </button>
+          </form>
+          <p class="privacy-note"><svg aria-hidden="true" viewBox="0 0 16 16" fill="none"><rect x="3.2" y="7" width="9.6" height="7" rx="1.5"></rect><path d="M5.2 7V4.8a2.8 2.8 0 0 1 5.6 0V7"></path></svg> Only search terms—not the full URL—are sent to Brave.</p>
+        </div>
+
+        <aside class="side-note">
+          <div class="side-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3.5 20 7v5.2c0 4.1-3.1 7.3-8 9.3-4.9-2-8-5.2-8-9.3V7l8-3.5Z"></path><path d="m8.7 12.2 2.1 2.1 4.7-4.7"></path></svg>
+          </div>
+          <p class="side-kicker">A useful first pass</p>
+          <h3>Good due diligence<br>is more than a URL.</h3>
+          <p>DialCheck searches the web for related pages and helps you verify the seller, payment, photos, and price. Search results are clues, not proof.</p>
+          <div class="side-divider"></div>
+          <div class="side-foot"><span class="side-foot-dot"></span> Built for careful buyers, not quick verdicts.</div>
+        </aside>
+      </section>
+
+      <section class="results" id="results" aria-live="polite" hidden>
+        <div class="results-header">
+          <div>
+            <p class="step-label">02 <span>— YOUR DUE-DILIGENCE BRIEF</span></p>
+            <h2>Check the evidence, not just the listing.</h2>
+          </div>
+          <span class="local-badge"><span></span> LINK CHECK + WEB SEARCH</span>
+        </div>
+
+        <div class="result-summary">
+          <div class="summary-icon" id="summary-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.2 4.2M8 10.8h5.6"></path></svg>
+          </div>
+          <div class="summary-copy">
+            <p class="summary-kicker" id="summary-kicker">LINK FORMAT</p>
+            <h3 id="summary-title">This looks like a supported listing link.</h3>
+            <p id="summary-description"></p>
+          </div>
+          <a class="source-link" id="source-link" href="#" target="_blank" rel="noopener noreferrer">Open original listing <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="detail-grid">
+          <section class="detail-card link-details">
+            <div class="section-title">
+              <span class="section-number">A</span>
+              <div><h3>What the link tells us</h3><p>These are format checks only—not trust or authenticity checks.</p></div>
+            </div>
+            <div class="signal-list" id="signal-list"></div>
+          </section>
+
+          <section class="detail-card research-card">
+            <div class="section-title">
+              <span class="section-number">B</span>
+              <div><h3>Automated web search</h3><p>Brave results related to the listing, seller, and model.</p></div>
+            </div>
+            <div class="web-search-status loading" id="web-search-status" role="status" aria-live="polite">
+              <span class="web-search-indicator" aria-hidden="true"></span>
+              <p id="web-search-message">Preparing your search…</p>
+            </div>
+            <div class="web-results" id="web-results"></div>
+            <div class="manual-search">
+              <p class="manual-search-title">Want to search another way?</p>
+              <div class="research-list" id="research-list"></div>
+            </div>
+            <p class="research-footnote">Search terms are sent to Brave. Results may be incomplete or unrelated; review each source yourself.</p>
+          </section>
+        </div>
+
+        <div class="detail-grid follow-up-grid">
+          <section class="detail-card checklist-card">
+            <div class="section-title">
+              <span class="section-number">C</span>
+              <div><h3>Verify before you pay</h3><p>Mark an item only when you have checked it directly.</p></div>
+            </div>
+            <div class="check-list" id="check-list">
+              <label class="check-row"><input type="checkbox" data-verified="seller"><span class="custom-check" aria-hidden="true"></span><span class="check-copy"><strong>Seller history</strong><small>Feedback, account history, and recent reviews make sense.</small></span><span class="row-status">TO CHECK</span></label>
+              <label class="check-row"><input type="checkbox" data-verified="payment"><span class="custom-check" aria-hidden="true"></span><span class="check-copy"><strong>Protected payment</strong><small>Checkout and payment stay on the marketplace.</small></span><span class="row-status">TO CHECK</span></label>
+              <label class="check-row"><input type="checkbox" data-verified="photos"><span class="custom-check" aria-hidden="true"></span><span class="check-copy"><strong>Watch-specific photos</strong><small>Clear, consistent photos show the actual watch and details.</small></span><span class="row-status">TO CHECK</span></label>
+              <label class="check-row"><input type="checkbox" data-verified="price"><span class="custom-check" aria-hidden="true"></span><span class="check-copy"><strong>Price and description</strong><small>Price, condition, model, and included items add up.</small></span><span class="row-status">TO CHECK</span></label>
+            </div>
+          </section>
+
+          <section class="detail-card flags-card">
+            <div class="section-title">
+              <span class="section-number">D</span>
+              <div><h3>Anything feel off?</h3><p>Check any concerns you noticed in the listing or conversation.</p></div>
+            </div>
+            <div class="flag-list">
+              <label class="flag-row"><input type="checkbox" data-flag="offsite"><span>Asked to pay or continue the deal off-platform</span></label>
+              <label class="flag-row"><input type="checkbox" data-flag="pressure"><span>Pressure to pay quickly or avoid normal checks</span></label>
+              <label class="flag-row"><input type="checkbox" data-flag="price"><span>Price seems unusually low for the watch and condition</span></label>
+              <label class="flag-row"><input type="checkbox" data-flag="photos"><span>Photos look generic, reused, or inconsistent</span></label>
+            </div>
+            <div class="assessment" id="assessment" aria-live="polite">
+              <span class="assessment-dot"></span>
+              <p id="assessment-text">Not enough evidence yet. A supported link is not a safety verdict.</p>
+            </div>
+          </section>
+        </div>
+
+        <div class="disclaimer">
+          <svg aria-hidden="true" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7.5"></circle><path d="M10 9v4m0-6h.01"></path></svg>
+          <p><strong>Use your judgment.</strong> This tool does not verify sellers, authenticate watches, estimate fair value, or guarantee a safe transaction. Keep communication and payment on-platform; if anything feels wrong, pause and contact the marketplace.</p>
+        </div>
+      </section>
+    </main>
+    <footer><span>dialcheck <span class="footer-divider">/</span> independent buying, better informed</span><span>LINK CHECKS RUN LOCALLY <span class="footer-divider">·</span> NO AFFILIATION WITH MARKETPLACES</span></footer>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+- id: va-disabled-veteran-principal-residence-property-tax-exemption
+  name: Exemption from Taxes on Property for Disabled Veterans
+  state: VA
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Virginia exempts qualifying veterans' principal-residence real property from taxation, subject to statutory dwelling, land, acreage, and ownership rules. A surviving spouse may qualify under the conditions in state law.
+  value: Real-property tax exemption for a qualifying principal residence
+  eligibility:
+    who: [veteran, surviving_spouse]
+    min_rating: 100
+    p_and_t: true
+    requires_homeowner: true
+    other_requirements:
+      - Requires a VA-rated 100% service-connected, permanent-and-total disability. A surviving spouse may qualify if the veteran died on or after January 1, 2011 and the spouse has not remarried; acreage and ownership rules apply.
+  how_to_apply:
+    - File an affidavit or written statement and VA disability documentation with the county, city, or town revenue officer.
+  application_url: https://law.lis.virginia.gov/vacode/58.1-3219.6/
+  source_url: https://law.lis.virginia.gov/vacode/title58.1/chapter32/section58.1-3219.5/
+  source_name: Code of Virginia — Sections 58.1-3219.5 and 58.1-3219.6
+  last_verified: 2026-11-05
+- id: va-disabled-veteran-motor-vehicle-tax-exemption
+  name: Motor Vehicle Tax Exemption for a Disabled Veteran
+  state: VA
+  scope: state
+  counties: all
+  category: vehicle
+  summary: Exempts one qualifying personal-use passenger car or pickup/panel truck from taxation. A vehicle owned by a married person may qualify if either spouse is an eligible veteran.
+  value: Tax exemption for one qualifying vehicle
+  eligibility:
+    who: [veteran]
+    min_rating: 100
+    p_and_t: true
+    other_requirements:
+      - The vehicle must be owned and primarily used by or for an Armed Forces or Virginia National Guard veteran with a VA-rated 100% service-connected, permanent-and-total disability. The exemption ends at the veteran's death and does not continue for a surviving spouse.
+  how_to_apply:
+    - Apply through the locality's procedure, if established.
+  application_url: https://law.lis.virginia.gov/vacode/title58.1/chapter36/section58.1-3668/
+  source_url: https://law.lis.virginia.gov/vacode/title58.1/chapter36/section58.1-3668/
+  source_name: Code of Virginia — Section 58.1-3668, Motor Vehicle of a Disabled Veteran
+  last_verified: 2026-11-05

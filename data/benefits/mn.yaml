@@ -1,0 +1,19 @@
+- id: mn-disabled-veteran-homestead-exclusion
+  name: Homestead of Veteran with a Disability or Family Caregiver
+  state: MN
+  scope: state
+  counties: all
+  category: property_tax
+  summary: "Excludes part of a qualifying homestead's market value from taxable market value: $150,000 for a disability rating of at least 70%, or $300,000 for a 100% permanent disability."
+  value: $150,000 taxable-market-value exclusion at 70% disability; $300,000 at 100% permanent disability
+  eligibility:
+    who: [veteran, surviving_spouse]
+    requires_homeowner: true
+    other_requirements:
+      - The veteran must have a VA-certified service-connected disability of at least 70% and an honorable discharge. State law also specifies circumstances for family caregivers and surviving spouses.
+  how_to_apply:
+    - Apply to the assessor by December 31 of the first assessment year for which the exclusion is sought.
+  application_url: https://www.revisor.mn.gov/statutes/cite/273.13
+  source_url: https://www.revisor.mn.gov/statutes/cite/273.13
+  source_name: Minnesota Revisor of Statutes — Homestead of Veteran with a Disability or Family Caregiver
+  last_verified: 2026-11-05

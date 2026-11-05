@@ -1,0 +1,38 @@
+- id: az-veteran-in-state-student-classification
+  name: Immediate In-State Student Classification for Qualifying Veterans
+  state: AZ
+  scope: state
+  counties: all
+  category: education
+  summary: A veteran using specified federal education assistance may qualify for immediate in-state classification at an Arizona public university or community college after discharge following at least 90 days of active duty.
+  value: In-state student classification for tuition purposes
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Must use one of the specified federal education-assistance programs, have completed at least 90 days of active duty before discharge, and show objective evidence of intent to reside in Arizona, such as state voter registration, a driver license, vehicle registration, or employment history.
+  how_to_apply:
+    - Present the evidence of Arizona residency intent described in the statute to the public institution.
+  application_url: https://www.azleg.gov/ars/15/01802.htm
+  source_url: https://www.azleg.gov/ars/15/01802.htm
+  source_name: Arizona Revised Statutes — Section 15-1802, In-State Student Status
+  last_verified: 2026-11-05
+- id: az-veteran-game-fish-license-fee-relief
+  name: Game and Fish Veteran License Fee Relief
+  state: AZ
+  scope: state
+  counties: all
+  category: recreation
+  summary: Arizona law authorizes the Game and Fish Commission to issue a complimentary license to certain veterans with qualifying disability and residency. The statute says the Commission may offer these licenses; current availability and application steps were not confirmed on an agency page.
+  value: Complimentary or reduced-fee license if offered by the Commission
+  eligibility:
+    who: [veteran]
+    min_rating: 100
+    p_and_t: true
+    other_requirements:
+      - The complimentary license provision requires at least one year of Arizona residency and federal compensation for a 100% permanent service-connected disability. The law also authorizes reduced-fee licenses for certain service-connected disabled veterans and resident Purple Heart recipients; verify current implementation.
+  how_to_apply:
+    - Contact the Arizona Game and Fish Department to verify whether a license is currently offered and how to apply.
+  application_url: https://www.azleg.gov/ars/17/00333.htm
+  source_url: https://www.azleg.gov/ars/17/00333.htm
+  source_name: Arizona Revised Statutes — Section 17-333, License Classifications and Fees
+  last_verified: 2026-11-05

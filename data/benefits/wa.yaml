@@ -1,0 +1,56 @@
+- id: wa-lifetime-disabled-veteran-pass
+  name: Lifetime Disabled Veteran Pass
+  state: WA
+  scope: state
+  counties: all
+  category: recreation
+  summary: Washington residents with a qualifying service-connected disability may receive a pass covering specified state-park and state-agency recreation fees, including free day-use parking and camping or moorage. Reservation and change fees may still apply.
+  value: Reduced or waived fees for specified recreational uses; some fees still apply
+  eligibility:
+    who: [veteran]
+    min_rating: 30
+    other_requirements:
+      - Must be a Washington resident with a service-connected disability. See the current program page for covered activities and fees.
+  how_to_apply:
+    - Submit the application linked on the page or contact Washington State Parks.
+  application_url: https://dva.wa.gov/veterans-service-members-and-their-families/veterans-benefits/free-or-reduced-rate-passes-and-tax-exemptions
+  source_url: https://dva.wa.gov/veterans-service-members-and-their-families/veterans-benefits/free-or-reduced-rate-passes-and-tax-exemptions
+  source_name: Washington State Department of Veterans Affairs — Free or Reduced Rate Passes and Tax Exemptions
+  last_verified: 2026-11-05
+- id: wa-veteran-property-tax-relief
+  name: Property Tax Relief for Veterans
+  state: WA
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Income-based property-tax exemption or deferral relief may be available to qualifying homeowners, including veterans with a qualifying service-connected disability.
+  value: Income-based exemption or deferral; amount depends on eligibility and local assessed value
+  eligibility:
+    who: [veteran]
+    requires_homeowner: true
+    other_requirements:
+      - The source describes qualifying homeowners age 61 or older, disabled, or veterans with an 80% service-connected disability, subject to occupancy and income thresholds.
+  how_to_apply:
+    - Contact the county assessor for current requirements and forms.
+  application_url: https://dva.wa.gov/veterans-service-members-and-their-families/veterans-benefits/housing-resources/property-tax-relief
+  source_url: https://dva.wa.gov/veterans-service-members-and-their-families/veterans-benefits/housing-resources/property-tax-relief
+  source_name: Washington State Department of Veterans Affairs — Property Tax Relief
+  last_verified: 2026-11-05
+- id: wa-dependent-tuition-waiver
+  name: Tuition Waiver for Dependents of Eligible Veterans or National Guard Members
+  state: WA
+  scope: state
+  counties: all
+  category: education
+  summary: State colleges and universities must waive undergraduate tuition and fees for qualifying dependents, up to 200 quarter credits or the equivalent semester credits.
+  value: Undergraduate tuition and fees waived up to the program credit limit
+  eligibility:
+    who: [dependent_child]
+    other_requirements:
+      - Qualifying students include dependents of a 100%-disabled veteran or a veteran or National Guard member who died as a result of military service. Contact the institution to confirm the applicable criteria.
+  how_to_apply:
+    - Contact the college or university for its application process.
+  application_url: https://dva.wa.gov/veterans-service-members-and-their-families/veterans-benefits/education-and-training
+  source_url: https://dva.wa.gov/veterans-service-members-and-their-families/veterans-benefits/education-and-training
+  source_name: Washington State Department of Veterans Affairs — Education and Training
+  last_verified: 2026-11-05

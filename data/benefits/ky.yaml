@@ -1,0 +1,32 @@
+- id: ky-veterans-nursing-homes
+  name: Access to Kentucky Veterans' Nursing Homes
+  state: KY
+  scope: state
+  counties: all
+  category: other
+  summary: The Kentucky Department of Veterans Affairs lists access to veterans' nursing homes among state benefits. The overview does not specify admission criteria.
+  value: Long-term care services; admission and cost details require confirmation
+  eligibility:
+    who: [veteran]
+  how_to_apply:
+    - Contact a Kentucky Department of Veterans Affairs benefits representative for assistance and current admission requirements.
+  application_url: https://veterans.ky.gov/Benefits/Pages/default.aspx
+  source_url: https://veterans.ky.gov/Benefits/Pages/default.aspx
+  source_name: Kentucky Department of Veterans Affairs — Benefits
+  last_verified: 2026-11-05
+- id: ky-veterans-cemetery-burial-honors
+  name: Burial with Honors in Kentucky Veterans Cemeteries
+  state: KY
+  scope: state
+  counties: all
+  category: other
+  summary: The Kentucky Department of Veterans Affairs lists burial with honors in veterans cemeteries as a benefit. The overview does not specify detailed eligibility or arrangements.
+  value: Burial with honors; confirm cemetery and service details with KDVA
+  eligibility:
+    who: [veteran]
+  how_to_apply:
+    - Contact a Kentucky Department of Veterans Affairs benefits representative for eligibility and arrangement assistance.
+  application_url: https://veterans.ky.gov/Benefits/Pages/default.aspx
+  source_url: https://veterans.ky.gov/Benefits/Pages/default.aspx
+  source_name: Kentucky Department of Veterans Affairs — Benefits
+  last_verified: 2026-11-05

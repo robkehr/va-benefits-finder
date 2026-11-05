@@ -1,0 +1,39 @@
+- id: nv-disabled-veteran-hunting-fishing-license
+  name: Disabled Veteran Specialty Combination Hunting and Fishing License
+  state: NV
+  scope: state
+  counties: all
+  category: recreation
+  summary: Nevada provides an annual specialty combination hunting and fishing license for qualifying resident veterans with disabilities.
+  value: Annual specialty combination license; fee details are on the agency page
+  eligibility:
+    who: [veteran]
+    min_rating: 50
+    discharge: [honorable]
+    other_requirements:
+      - Requires bona fide Nevada residency, a VA-rated service-connected disability of at least 50%, and an honorable discharge or certificate of satisfactory service.
+  how_to_apply:
+    - Process the initial application at a Nevada Department of Wildlife office.
+  application_url: https://www.ndow.org/apply-buy/fishing/
+  source_url: https://www.leg.state.nv.us/NRS/NRS-502.html
+  source_name: "Nevada Revised Statutes 502.072 and Nevada Department of Wildlife — Apply and Buy: Fishing"
+  last_verified: 2026-11-05
+- id: nv-purple-heart-veteran-child-fee-waiver
+  name: Purple Heart Veteran and Child Fee Waiver
+  state: NV
+  scope: state
+  counties: all
+  category: education
+  summary: Nevada public higher-education institutions waive registration, laboratory, and other mandatory fees for a Purple Heart recipient. A child of a qualifying veteran may also qualify.
+  value: Waiver of eligible mandatory fees after applicable federal education benefits
+  eligibility:
+    who: [veteran, dependent_child]
+    special_statuses: [Purple Heart]
+    other_requirements:
+      - For a child's eligibility, the veteran must be or have been a Nevada resident at death and the child must have graduated from a Nevada high school. Contact the institution about current federal-benefit coordination and eligibility rules.
+  how_to_apply:
+    - Contact the relevant Nevada System of Higher Education institution for application steps; the statute does not specify them.
+  application_url: https://www.leg.state.nv.us/NRS/NRS-396.html
+  source_url: https://www.leg.state.nv.us/NRS/NRS-396.html
+  source_name: Nevada Revised Statutes — Section 396.5443, Purple Heart Veteran or Child Fee Waiver
+  last_verified: 2026-11-05

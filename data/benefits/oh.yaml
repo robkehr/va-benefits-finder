@@ -1,0 +1,18 @@
+- id: oh-war-orphan-disabled-veterans-children-scholarship
+  name: Ohio War Orphan and Severely Disabled Veterans' Children Scholarship
+  state: OH
+  scope: state
+  counties: all
+  category: education
+  summary: Provides tuition assistance to eligible children of deceased or severely disabled Ohio veterans who served during a declared war or conflict.
+  value: Tuition assistance; amount depends on program rules
+  eligibility:
+    who: [dependent_child]
+    other_requirements:
+      - The student must be an Ohio resident, attend full-time undergraduate study at an eligible Ohio college, and apply between ages 16 and 24. Parent veteran must meet the program's service and disability or death requirements.
+  how_to_apply:
+    - Apply electronically or submit a paper application through the Ohio Department of Higher Education.
+  application_url: https://highered.ohio.gov/educators/financial-aid/sgs/wos/wos
+  source_url: https://highered.ohio.gov/educators/financial-aid/sgs/wos/wos
+  source_name: Ohio Department of Higher Education — War Orphan and Severely Disabled Veterans' Children Scholarship
+  last_verified: 2026-11-05

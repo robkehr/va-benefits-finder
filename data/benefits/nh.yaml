@@ -1,0 +1,18 @@
+- id: nh-standard-optional-veterans-tax-credit
+  name: Standard and Optional Veterans' Tax Credit
+  state: NH
+  scope: municipal
+  counties: all
+  category: property_tax
+  summary: Provides a property-tax credit for qualifying residents. Municipalities may adopt an optional credit in place of the standard credit.
+  value: Credit amount depends on municipal adoption and applicable rules
+  eligibility:
+    who: [veteran, spouse, surviving_spouse]
+    other_requirements:
+      - The statute lists qualifying service and disability circumstances for veterans and specified spouses or surviving spouses. The optional credit requires municipal adoption; review the statute and contact the local assessor.
+  how_to_apply:
+    - Contact the local assessing official to confirm municipal adoption, eligibility, and application steps.
+  application_url: https://gc.nh.gov/rsa/html/V/72/72-28.htm
+  source_url: https://gc.nh.gov/rsa/html/V/72/72-28.htm
+  source_name: "New Hampshire Revised Statutes — RSA 72:28, Standard and Optional Veterans' Tax Credit"
+  last_verified: 2026-11-05

@@ -1,0 +1,61 @@
+- id: ms-disabled-veteran-ad-valorem-exemption
+  name: Ad Valorem Tax Exemption
+  state: MS
+  scope: state
+  counties: all
+  category: property_tax
+  summary: The Mississippi Veterans Affairs 2024–2025 handbook says an honorably discharged veteran with total service-connected disability is exempt from ad valorem taxes on the assessed value of homestead property; it extends the exemption to an unremarried surviving spouse.
+  value: Ad valorem tax exemption on assessed homestead value
+  eligibility:
+    who: [veteran, surviving_spouse]
+    min_rating: 100
+    requires_homeowner: true
+    discharge: [honorable]
+    other_requirements:
+      - The handbook says an eligible surviving spouse must not have remarried. Verify current program details with the state or county.
+  how_to_apply:
+    - Contact the county tax assessor or the Mississippi Veterans Affairs office for current application instructions.
+  application_url: https://msva.ms.gov/benefits/
+  source_url: https://static1.squarespace.com/static/5c534b122727be7fb7922414/t/6740bf850f3cca7f7879d6b5/1732296583799/Benefit+Book+2024+2025.pdf
+  source_name: Mississippi Veterans Affairs — State Benefits Handbook, 2024–2025
+  last_verified: 2026-11-05
+  notes: Details are from the 2024–2025 handbook linked by the state agency and may not reflect later changes.
+- id: ms-disabled-veteran-hunting-fishing-license-exemption
+  name: Hunting and Fishing License Exemption
+  state: MS
+  scope: state
+  counties: all
+  category: recreation
+  summary: Veterans with total service-connected disability from the VA are not required to purchase hunting or fishing licenses under the state-agency 2024–2025 handbook.
+  value: Hunting and fishing license exemption
+  eligibility:
+    who: [veteran]
+    min_rating: 100
+    other_requirements:
+      - While hunting or fishing, carry proof of age, residency, and disability status as described in the handbook.
+  how_to_apply:
+    - Review current requirements with the Mississippi Department of Wildlife, Fisheries, and Parks before using the exemption.
+  application_url: https://msva.ms.gov/benefits/
+  source_url: https://static1.squarespace.com/static/5c534b122727be7fb7922414/t/6740bf850f3cca7f7879d6b5/1732296583799/Benefit+Book+2024+2025.pdf
+  source_name: Mississippi Veterans Affairs — State Benefits Handbook, 2024–2025
+  last_verified: 2026-11-05
+  notes: Details are from the 2024–2025 handbook linked by the state agency and may not reflect later changes.
+- id: ms-veteran-in-state-tuition
+  name: In-State Tuition for Veterans and Education-Benefit Recipients
+  state: MS
+  scope: state
+  counties: all
+  category: education
+  summary: The Mississippi Veterans Affairs 2024–2025 handbook says veterans as defined by Title 38, or people entitled to Title 38 veterans' educational assistance, are authorized in-state tuition.
+  value: In-state tuition rate
+  eligibility:
+    who: [veteran, spouse, dependent_child]
+    other_requirements:
+      - The handbook refers to veterans as defined by Title 38 and people entitled to Title 38 veterans' educational assistance. Confirm current campus application details.
+  how_to_apply:
+    - Contact the institution's veterans office or registrar; the handbook does not specify application steps.
+  application_url: https://msva.ms.gov/benefits/
+  source_url: https://static1.squarespace.com/static/5c534b122727be7fb7922414/t/6740bf850f3cca7f7879d6b5/1732296583799/Benefit+Book+2024+2025.pdf
+  source_name: Mississippi Veterans Affairs — State Benefits Handbook, 2024–2025
+  last_verified: 2026-11-05
+  notes: Details are from the 2024–2025 handbook linked by the state agency and may not reflect later changes.

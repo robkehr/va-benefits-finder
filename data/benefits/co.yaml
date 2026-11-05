@@ -1,0 +1,37 @@
+- id: co-disabled-veteran-lifetime-small-game-fishing-license
+  name: Disabled Veterans Lifetime Small Game and Fishing Combination License
+  state: CO
+  scope: state
+  counties: all
+  category: recreation
+  summary: Colorado offers an eligible resident veteran a lifetime small-game and fishing combination license.
+  value: Lifetime small-game and fishing combination license
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Must be a Colorado resident and either a Purple Heart recipient or have a VA-rated service-connected disability with an overall combined rating of at least 50%.
+  how_to_apply:
+    - Apply through a Colorado Parks and Wildlife account, submit electronically, or mail the application. The agency says to allow 15 business days for processing.
+  application_url: https://cpw.state.co.us/activities/hunting/hunters-disabilities
+  source_url: https://cpw.state.co.us/activities/hunting/hunters-disabilities
+  source_name: Colorado Parks and Wildlife — Hunters with Disabilities
+  last_verified: 2026-11-05
+- id: co-veterans-day-free-state-park-entry-2026
+  name: Veterans Day Free Colorado State Park Entry (2026)
+  state: CO
+  scope: state
+  counties: all
+  category: recreation
+  summary: Colorado state parks offer free entry to veterans and active military members on November 11, 2026. Other park fees, such as camping or fishing, still apply.
+  value: Free state-park entry on November 11, 2026 only
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Applies on November 11, 2026. Accepted service identification includes a DD-214, military identification, a Colorado ID marked Veteran, or a VA medical card. No registration is required.
+  how_to_apply:
+    - Show accepted service identification at a Colorado state park on November 11, 2026.
+  application_url: https://cpw.state.co.us/event/2026/11/free-park-entry-veterans-and-active-military
+  source_url: https://cpw.state.co.us/event/2026/11/free-park-entry-veterans-and-active-military
+  source_name: "Colorado Parks and Wildlife — Free Park Entry: Veterans and Active Military"
+  last_verified: 2026-11-05
+  notes: This is a one-day event for November 11, 2026, not an ongoing benefit.

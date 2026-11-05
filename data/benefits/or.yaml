@@ -1,0 +1,55 @@
+- id: or-disabled-veterans-property-tax-exemption
+  name: Disabled Veterans' Property Tax Exemption
+  state: OR
+  scope: state
+  counties: all
+  category: property_tax
+  summary: A qualified disabled veteran may exempt some assessed value of a homestead from property taxes.
+  value: Exemption from some assessed value; amount not stated on this page
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - The veteran must be certified as at least 40% disabled by the VA or an Armed Forces branch, or annually by a licensed physician.
+  how_to_apply:
+    - Contact the county assessor or review the veteran forms through the Oregon Department of Revenue.
+  application_url: https://www.oregon.gov/odva/Benefits/Pages/Taxes.aspx
+  source_url: https://www.oregon.gov/odva/Benefits/Pages/Taxes.aspx
+  source_name: Oregon Department of Veterans' Affairs — Taxes
+  last_verified: 2026-11-05
+- id: or-disabled-veteran-hunting-fishing-license
+  name: Disabled Veteran License and Tag
+  state: OR
+  scope: state
+  counties: all
+  category: recreation
+  summary: Eligible service-connected disabled veterans may qualify for a free combination license covering hunting, fishing, shellfish, and a Columbia River Basin Endorsement. The state page also notes a resident disabled-veteran elk tag option.
+  value: Free combination license; the page also lists a $25 elk tag option for qualifying resident disabled veterans
+  eligibility:
+    who: [veteran]
+    min_rating: 25
+    other_requirements:
+      - The source describes eligibility for service-connected disabled veterans. Verify current license and tag rules with Oregon Department of Fish and Wildlife.
+  how_to_apply:
+    - Follow the linked Oregon Department of Fish and Wildlife information on the state veterans-agency recreation page.
+  application_url: https://www.oregon.gov/odva/Benefits/Pages/Recreation.aspx
+  source_url: https://www.oregon.gov/odva/Benefits/Pages/Recreation.aspx
+  source_name: Oregon Department of Veterans' Affairs — Recreation
+  last_verified: 2026-11-05
+- id: or-veterans-educational-bridge-grant
+  name: Veterans Educational Bridge Grant
+  state: OR
+  scope: state
+  counties: all
+  category: education
+  summary: Helps eligible Oregon veterans whose progress in an Oregon-based education or training program is interrupted by specified financial or course-availability hardship.
+  value: Lifetime maximum of $10,000, including up to $5,000 for student-account debt
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Eligibility is limited to the qualifying education, training, financial-hardship, course-availability, or student-account circumstances described on the program page.
+  how_to_apply:
+    - Review the eligibility criteria, complete the appropriate application and document checklist, and submit through the secure upload link on the program page.
+  application_url: https://www.oregon.gov/odva/Agency-Programs/Grants/Pages/Educational-Bridge-Grant.aspx
+  source_url: https://www.oregon.gov/odva/Agency-Programs/Grants/Pages/Educational-Bridge-Grant.aspx
+  source_name: Oregon Department of Veterans' Affairs — Veterans Educational Bridge Grant
+  last_verified: 2026-11-05

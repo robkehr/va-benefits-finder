@@ -1,0 +1,18 @@
+- id: ca-disabled-veterans-property-tax-exemption
+  name: Disabled Veterans' Exemption
+  state: CA
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Reduces property tax liability on a qualified claimant's principal residence.
+  value: Exemption from a portion of the assessed value; amount depends on the applicable exemption and assessment
+  eligibility:
+    who: [veteran, surviving_spouse]
+    other_requirements:
+      - The veteran must have a qualifying service-connected disability, including 100% disability or compensation at the 100% rate due to unemployability, and qualifying service and discharge. Qualification is determined by the county assessor.
+  how_to_apply:
+    - Review the forms and filing guidance and contact the county assessor to determine eligibility.
+  application_url: https://www.boe.ca.gov/proptaxes/dv_exemption.htm
+  source_url: https://www.boe.ca.gov/proptaxes/dv_exemption.htm
+  source_name: California Board of Equalization — Disabled Veterans' Exemption
+  last_verified: 2026-11-05

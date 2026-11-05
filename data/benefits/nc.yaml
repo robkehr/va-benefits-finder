@@ -1,0 +1,34 @@
+- id: nc-veteran-government-employment-preference
+  name: Employment Preference for Servicemembers, Veterans, and Their Spouses
+  state: NC
+  scope: state
+  counties: all
+  category: employment
+  summary: North Carolina provides employment preference for veterans, disabled veterans, their spouses, and National Guard members when applying for state, county, and local government jobs. A 2026 law expanded preference to spouses of active-duty servicemembers.
+  value: Preference in qualifying public-sector hiring
+  eligibility:
+    who: [veteran, spouse]
+    other_requirements:
+      - The agency page quotes statutory service-period criteria for veterans. It also describes disabled veterans, National Guard members, and spouses of active-duty servicemembers; confirm applicable preference for the job and applicant.
+  how_to_apply:
+    - Apply for the relevant government job and follow its instructions for claiming preference.
+  application_url: https://www.milvets.nc.gov/benefits-services/employment
+  source_url: https://www.milvets.nc.gov/benefits-services/employment
+  source_name: North Carolina Department of Military and Veterans Affairs — Employment Preference
+  last_verified: 2026-11-05
+- id: ncworks-veteran-early-job-posting-access
+  name: NCWorks Veteran Early Access to Job Postings
+  state: NC
+  scope: state
+  counties: all
+  category: employment
+  summary: Veterans can view job postings on North Carolina's official job-search site 24 hours before they become available to the general public.
+  value: 24-hour early access to job postings
+  eligibility:
+    who: [veteran]
+  how_to_apply:
+    - Use NCWorks Online to search for jobs.
+  application_url: https://www.ncworks.gov/
+  source_url: https://www.milvets.nc.gov/benefits-services/employment
+  source_name: North Carolina Department of Military and Veterans Affairs — Employment Preference
+  last_verified: 2026-11-05

@@ -1,0 +1,54 @@
+- id: ny-alternative-veterans-property-tax-exemption
+  name: Alternative Veterans Exemption
+  state: NY
+  scope: municipal
+  counties: all
+  category: property_tax
+  summary: A municipal-option property tax exemption for residential property may be available to qualifying veterans. Participating municipalities and school districts decide whether to offer it.
+  value: Exemption amount depends on local adoption and applicable rules
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - The veteran must have served during a designated time of war or received an expeditionary medal. The municipality and school district must have adopted the exemption.
+  how_to_apply:
+    - Apply to the local assessor. Deadlines are usually March 1, but confirm with the assessor.
+  application_url: https://www.tax.ny.gov/pit/property/exemption/vetexempt.htm
+  source_url: https://www.tax.ny.gov/pit/property/exemption/vetexempt.htm
+  source_name: New York State Department of Taxation and Finance — Veterans Exemptions
+  last_verified: 2026-11-05
+- id: ny-veteran-vehicle-registration-fee-exemption
+  name: State Vehicle Registration Fee Exemption
+  state: NY
+  scope: state
+  counties: all
+  category: vehicle
+  summary: New York's veterans agency says veterans may qualify for exemption from vehicle registration and plate fees. Detailed eligibility is not stated on the summary page.
+  value: Exemption from eligible registration and plate fees
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - The state veterans-agency summary lists this under disabled veterans but does not state the qualifying disability rating; confirm requirements with DMV.
+  how_to_apply:
+    - Contact the New York State Department of Motor Vehicles for current requirements and application steps.
+  application_url: https://veterans.ny.gov/disabled-veterans
+  source_url: https://veterans.ny.gov/disabled-veterans
+  source_name: New York State Department of Veterans' Services — Disabled Veterans
+  last_verified: 2026-11-05
+- id: ny-disabled-veteran-hunting-fishing-license
+  name: Reduced-Fee Hunting and Fishing Licenses
+  state: NY
+  scope: state
+  counties: all
+  category: recreation
+  summary: New York's veterans agency says disabled veterans may qualify for reduced-fee hunting and fishing licenses and preference for Deer Management Permits.
+  value: Reduced license fees; specific amount not stated on the summary page
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - The summary page does not specify the qualifying disability rating or license cost; verify current requirements with the Department of Environmental Conservation.
+  how_to_apply:
+    - Contact the New York State Department of Environmental Conservation for current license qualifications and application instructions.
+  application_url: https://veterans.ny.gov/disabled-veterans
+  source_url: https://veterans.ny.gov/disabled-veterans
+  source_name: New York State Department of Veterans' Services — Disabled Veterans
+  last_verified: 2026-11-05

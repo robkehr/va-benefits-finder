@@ -1,0 +1,36 @@
+- id: al-gi-dependent-scholarship
+  name: Alabama G.I. Dependent Scholarship Program
+  state: AL
+  scope: state
+  counties: all
+  category: education
+  summary: Pays eligible tuition, textbooks, and fees, subject to program caps and the student's other grants. The number of semesters varies by dependent relationship.
+  value: Tuition, textbooks, and fees subject to program caps and other grants
+  eligibility:
+    who: [dependent_child, spouse]
+    other_requirements:
+      - The veteran generally needs an honorable discharge, qualifying service, and a qualifying disability or other listed status. The student must meet residency, FAFSA, satisfactory academic progress, and FERPA requirements; review current program rules.
+  how_to_apply:
+    - Review the Alabama Department of Veterans Affairs program page for eligibility and application information.
+  application_url: https://va.alabama.gov/education-training/alabama-g-i-dependent-scholarship-program/
+  source_url: https://va.alabama.gov/education-training/alabama-g-i-dependent-scholarship-program/
+  source_name: Alabama Department of Veterans Affairs — Alabama G.I. Dependent Scholarship Program
+  last_verified: 2026-11-05
+- id: al-state-veterans-homes
+  name: Alabama State Veterans Homes
+  state: AL
+  scope: state
+  counties: all
+  category: other
+  summary: Alabama operates five veterans homes for aging or chronically disabled veterans. Admission eligibility is not detailed on the source summary.
+  value: Long-term care services; terms and costs depend on admission and program rules
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Contact a facility or local veterans service office for current admission criteria.
+  how_to_apply:
+    - Obtain an application from a local veterans service office or facility, or download it from the program page.
+  application_url: https://va.alabama.gov/veterans-services/veterans-home-program/
+  source_url: https://va.alabama.gov/veterans-services/veterans-home-program/
+  source_name: Alabama Department of Veterans Affairs — Veterans Home Program
+  last_verified: 2026-11-05

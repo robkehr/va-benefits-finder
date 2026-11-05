@@ -1,0 +1,56 @@
+- id: md-disabled-veterans-property-tax-exemption
+  name: State Property Tax Exemption for Disabled Veterans
+  state: MD
+  scope: state
+  counties: all
+  category: property_tax
+  summary: An exemption from real-property taxes on a dwelling house and surrounding yard may be available to qualifying disabled veterans and certain surviving spouses.
+  value: Real-property tax exemption on a qualifying dwelling house and surrounding yard
+  eligibility:
+    who: [veteran, surviving_spouse]
+    min_rating: 100
+    p_and_t: true
+    requires_homeowner: true
+    other_requirements:
+      - The veteran must have a VA-rated 100% service-connected, permanent-and-total disability. The official page also describes eligible disabled active-duty members and certain surviving spouses.
+  how_to_apply:
+    - Apply using the relevant state application. Veterans and surviving spouses may apply at any time; contact the local assessment office with eligibility questions.
+  application_url: https://veterans.maryland.gov/benefits-services/tax-exemptions/state-property-tax-exemptions/
+  source_url: https://veterans.maryland.gov/benefits-services/tax-exemptions/state-property-tax-exemptions/
+  source_name: Maryland Department of Veterans and Military Families — State Property Tax Exemptions
+  last_verified: 2026-11-05
+- id: md-military-retirement-pay-tax-deduction
+  name: Military Retirement Pay Income Tax Deduction
+  state: MD
+  scope: state
+  counties: all
+  category: financial
+  summary: Qualifying military retirees or spouses of military retirees may subtract eligible military retirement income when calculating Maryland income tax.
+  value: Up to $20,000 for taxpayers age 55 or older, or up to $12,500 for those under 55, as stated on the state page
+  eligibility:
+    who: [veteran, spouse]
+    other_requirements:
+      - The deduction applies to qualifying military retirement income; confirm current eligibility and tax-year instructions with the state.
+  how_to_apply:
+    - Complete Maryland Form 502 and follow the resident tax booklet instructions for line 13.
+  application_url: https://veterans.maryland.gov/benefits-services/tax-exemptions/retirement-pay-and-pension-tax-deductions-and-exclusion/
+  source_url: https://veterans.maryland.gov/benefits-services/tax-exemptions/retirement-pay-and-pension-tax-deductions-and-exclusion/
+  source_name: Maryland Department of Veterans and Military Families — Retirement Pay and Pension Tax Deductions and Exclusion
+  last_verified: 2026-11-05
+- id: md-disabled-veteran-license-plates
+  name: 100% Disabled Veterans License Plates
+  state: MD
+  scope: state
+  counties: all
+  category: vehicle
+  summary: Maryland veterans rated 100% disabled may receive disabled veteran plates without charge.
+  value: Plates free of charge
+  eligibility:
+    who: [veteran]
+    min_rating: 100
+  how_to_apply:
+    - Schedule an appointment with the Maryland Motor Vehicle Administration and bring documentation of the disability percentage.
+  application_url: https://mva.maryland.gov/your-mva-guide/military-service-members/license-plates
+  source_url: https://mva.maryland.gov/your-mva-guide/military-service-members/license-plates
+  source_name: Maryland Motor Vehicle Administration — Military and Veteran License Plates
+  last_verified: 2026-11-05

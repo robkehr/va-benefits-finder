@@ -1,0 +1,30 @@
+- id: ct-veteran-license-plates
+  name: Veteran License Plates
+  state: CT
+  scope: state
+  counties: all
+  category: vehicle
+  summary: Connecticut's Department of Veterans Affairs lists veteran license plates as a state program. Plate types, fees, and detailed eligibility are not specified on the source page.
+  value: Details not specified on the source page
+  eligibility: {}
+  how_to_apply:
+    - Contact a Connecticut Department of Veterans Affairs Veteran Service Officer for application assistance.
+  application_url: https://portal.ct.gov/dva/advocacy-and-assistance
+  source_url: https://portal.ct.gov/dva/advocacy-and-assistance
+  source_name: Connecticut Department of Veterans Affairs — Office of Advocacy and Assistance
+  last_verified: 2026-11-05
+- id: ct-veteran-driver-license-indicator
+  name: Veteran Indicator on Driver's License or Identification Card
+  state: CT
+  scope: state
+  counties: all
+  category: vehicle
+  summary: Connecticut's Department of Veterans Affairs lists a veteran indicator for a state driver's license or identification card. Documentation and fees are not specified on the source page.
+  value: Veteran indicator
+  eligibility: {}
+  how_to_apply:
+    - Contact a Connecticut Department of Veterans Affairs Veteran Service Officer for application assistance.
+  application_url: https://portal.ct.gov/dva/advocacy-and-assistance
+  source_url: https://portal.ct.gov/dva/advocacy-and-assistance
+  source_name: Connecticut Department of Veterans Affairs — Office of Advocacy and Assistance
+  last_verified: 2026-11-05

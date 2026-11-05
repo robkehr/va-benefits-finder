@@ -1,0 +1,38 @@
+- id: mt-disabled-veterans-property-tax-assistance
+  name: Montana Disabled Veterans Assistance Program
+  state: MT
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Reduces the property tax rate on a home for eligible veterans with a 100% service-connected disability or a qualifying unmarried surviving spouse.
+  value: Reduced property tax rate; amount depends on the program calculation
+  eligibility:
+    who: [veteran, surviving_spouse]
+    min_rating: 100
+    requires_homeowner: true
+    other_requirements:
+      - For tax year 2027, applicants must own or be under contract to buy the home, use it as a primary residence for at least seven months of the year, and meet the income limit for their marital status. Annual income and property requirements apply.
+  how_to_apply:
+    - Apply by April 15 using the electronic application or paper MDV form submitted to a local field office.
+  application_url: https://revenue.mt.gov/property/property-tax-help/mdv
+  source_url: https://revenue.mt.gov/property/property-tax-help/mdv
+  source_name: Montana Department of Revenue — Montana Disabled Veterans Assistance Program
+  last_verified: 2026-11-05
+- id: mt-veteran-state-parks-camping-discount
+  name: Montana Veteran State Parks Camping Discount
+  state: MT
+  scope: state
+  counties: all
+  category: recreation
+  summary: Montana residents with veteran status receive 50% off state-park camping fees. The discount does not apply to electrical fees.
+  value: 50% off camping fees, excluding electrical fees
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Must be a Montana resident with veteran status and provide proof such as a DD-214, VA ID, or driver license showing veteran status.
+  how_to_apply:
+    - Present proof of eligibility when arranging camping; the source does not specify a separate application.
+  application_url: https://fwp.mt.gov/buyandapply/fees-and-general-information
+  source_url: https://fwp.mt.gov/buyandapply/fees-and-general-information
+  source_name: Montana Fish, Wildlife and Parks — Fees and General Information
+  last_verified: 2026-11-05

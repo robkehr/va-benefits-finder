@@ -1,0 +1,36 @@
+- id: sd-veterans-bonus
+  name: South Dakota Veterans Bonus
+  state: SD
+  scope: state
+  counties: all
+  category: financial
+  summary: Offers qualifying applicants up to $500 for service from August 2, 1990 through December 31, 1992, and a separate bonus of up to $500 for qualifying service after January 1, 1993.
+  value: Up to $500 for each of the listed qualifying service periods
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Applicants must have been South Dakota legal residents for at least six months before the active-duty period. Active-duty training does not qualify.
+  how_to_apply:
+    - Use the application linked on the state page. The page gives mail and email request instructions for applicants living outside the state.
+  application_url: https://vetaffairs.sd.gov/benefits/State/Veterans%20Bonus.aspx
+  source_url: https://vetaffairs.sd.gov/benefits/State/Veterans%20Bonus.aspx
+  source_name: South Dakota Department of Veterans Affairs — Bonus
+  last_verified: 2026-11-05
+- id: sd-reduced-fee-small-game-fishing-license
+  name: Reduced-Fee Small Game and Fishing License
+  state: SD
+  scope: state
+  counties: all
+  category: recreation
+  summary: South Dakota residents may qualify for a reduced-fee small game and fishing license under specified disability or former-prisoner-of-war conditions.
+  value: Reduced license fee; amount not specified in the source summary
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - The official page lists qualifying conditions including certain total physical disabilities, VA disability documentation, Social Security disability with military service, or former POW status. Check the source for exact requirements.
+  how_to_apply:
+    - Review the state page's eligibility conditions and contact the listed agency for current application instructions.
+  application_url: https://vetaffairs.sd.gov/benefits/State/Hunting%20and%20Fishing%20Licenses.aspx
+  source_url: https://vetaffairs.sd.gov/benefits/State/Hunting%20and%20Fishing%20Licenses.aspx
+  source_name: South Dakota Department of Veterans Affairs — Hunting and Fishing Licenses
+  last_verified: 2026-11-05

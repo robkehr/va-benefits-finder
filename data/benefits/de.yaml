@@ -1,0 +1,17 @@
+- id: de-veteran-hunting-fishing-license-exemption
+  name: Veteran License Exemption
+  state: DE
+  scope: state
+  counties: all
+  category: recreation
+  summary: Delaware exempts qualifying veterans from hunting and fishing license fees.
+  value: Hunting and fishing license exemption
+  eligibility:
+    who: [veteran]
+    min_rating: 60
+  how_to_apply:
+    - Complete the Veterans with Disabilities Exempt Application and submit it to DNREC's Division of Fish and Wildlife. The state page advises allowing up to four weeks.
+  application_url: https://dnrec.delaware.gov/fish-wildlife/licenses/exemptions/
+  source_url: https://dnrec.delaware.gov/fish-wildlife/licenses/exemptions/
+  source_name: Delaware DNREC — Fishing and Hunting License Exemptions
+  last_verified: 2026-11-05

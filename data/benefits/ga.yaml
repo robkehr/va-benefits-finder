@@ -1,0 +1,51 @@
+- id: ga-disabled-veteran-homestead-exemption
+  name: Disabled Veteran or Surviving Spouse Homestead Exemption
+  state: GA
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Georgia provides a homestead exemption for qualifying disabled veterans. Qualifying surviving spouses or minor children may continue to receive it while occupying the home.
+  value: Homestead property-tax exemption; amount depends on current statutory limits
+  eligibility:
+    who: [veteran, surviving_spouse, dependent_child]
+    requires_homeowner: true
+    other_requirements:
+      - The veteran must be a Georgia citizen and resident and own and occupy the home as a homestead. Surviving-spouse or minor-child continuation has additional conditions; confirm current requirements with the county.
+  how_to_apply:
+    - File with the county tax commissioner or, in some counties, the tax assessor.
+  application_url: https://dor.georgia.gov/property-tax-homestead-exemptions
+  source_url: https://dor.georgia.gov/property-tax-homestead-exemptions
+  source_name: Georgia Department of Revenue — Property Tax Homestead Exemptions
+  last_verified: 2026-11-05
+- id: ga-veterans-skilled-nursing-home-care
+  name: Georgia State Veterans Home Skilled Nursing Care
+  state: GA
+  scope: state
+  counties: all
+  category: other
+  summary: The Georgia Department of Veterans Service offers skilled nursing home care. The source summary does not specify admissions criteria.
+  value: Skilled nursing care; admission and cost details require confirmation
+  eligibility:
+    who: [veteran]
+  how_to_apply:
+    - Contact a Georgia Department of Veterans Service field office for information and application assistance.
+  application_url: https://veterans.georgia.gov/state-benefits
+  source_url: https://veterans.georgia.gov/state-benefits
+  source_name: Georgia Department of Veterans Service — State Benefits for Georgia Veterans
+  last_verified: 2026-11-05
+- id: ga-veterans-cemetery-committal-services
+  name: Georgia Veterans Cemetery Committal Services
+  state: GA
+  scope: state
+  counties: all
+  category: other
+  summary: The Georgia Department of Veterans Service describes cemetery committal services for veterans. The source summary does not specify eligibility or application steps.
+  value: Cemetery committal services; details require confirmation
+  eligibility:
+    who: [veteran]
+  how_to_apply:
+    - Contact a Georgia Department of Veterans Service field office for information and application assistance.
+  application_url: https://veterans.georgia.gov/state-benefits
+  source_url: https://veterans.georgia.gov/state-benefits
+  source_name: Georgia Department of Veterans Service — State Benefits for Georgia Veterans
+  last_verified: 2026-11-05

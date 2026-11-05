@@ -1,0 +1,52 @@
+- id: vt-veteran-assistance-fund
+  name: Vermont Veteran Assistance Fund
+  state: VT
+  scope: state
+  counties: all
+  category: financial
+  summary: May provide a one-time payment of up to $500 to a low-income Vermont veteran or family facing a financial crisis for a critical need such as housing or utilities.
+  value: One-time payment up to $500
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Vermont residency and low-income financial crisis criteria apply; contact the Office of Veterans Affairs to confirm eligibility.
+  how_to_apply:
+    - Apply by phone through the Vermont Office of Veterans Affairs.
+  application_url: https://veterans.vermont.gov/benefits-and-services/veteran-benefits/emergency-financial-assistance-and-financial-support
+  source_url: https://veterans.vermont.gov/benefits-and-services/veteran-benefits/emergency-financial-assistance-and-financial-support
+  source_name: Vermont Office of Veterans Affairs — Emergency Financial Assistance and Financial Support
+  last_verified: 2026-11-05
+- id: vt-veteran-high-school-diploma
+  name: High School Diplomas for Veterans
+  state: VT
+  scope: state
+  counties: all
+  category: education
+  summary: Veterans who served during World War II, the Korean War era, or the Vietnam War era and never received a high school diploma may apply for one from a Vermont public school.
+  value: Vermont public high school diploma
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Must have served in one of the listed periods and never received a high school diploma.
+  how_to_apply:
+    - Submit the application to the Office of Veterans Affairs, which verifies eligibility and forwards it to the school.
+  application_url: https://veterans.vermont.gov/benefits-and-services/veteran-benefits/recognition-your-service
+  source_url: https://veterans.vermont.gov/benefits-and-services/veteran-benefits/recognition-your-service
+  source_name: Vermont Office of Veterans Affairs — Recognition Your Service
+  last_verified: 2026-11-05
+- id: vt-veteran-license-plate
+  name: Veterans License Plate
+  state: VT
+  scope: state
+  counties: all
+  category: vehicle
+  summary: Vermont offers veterans plates for cars, trucks, and motorcycles; the Office of Veterans Affairs verifies service.
+  value: Veteran license plate; fees not specified in source summary
+  eligibility:
+    who: [veteran]
+  how_to_apply:
+    - Submit the certificate-of-veteran-status form and provide a DD-214 to the Office of Veterans Affairs.
+  application_url: https://veterans.vermont.gov/benefits-and-services/veteran-benefits/recognition-your-service
+  source_url: https://veterans.vermont.gov/benefits-and-services/veteran-benefits/recognition-your-service
+  source_name: Vermont Office of Veterans Affairs — Recognition Your Service
+  last_verified: 2026-11-05

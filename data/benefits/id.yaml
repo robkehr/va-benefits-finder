@@ -1,0 +1,20 @@
+- id: id-disabled-veteran-property-tax-benefit
+  name: Property Tax Benefit for Veterans with a 100% Service-Connected Disability
+  state: ID
+  scope: state
+  counties: all
+  category: property_tax
+  summary: May reduce property taxes on an Idaho homeowner's primary residence and up to one acre. The state page says there is no income limit.
+  value: Property tax reduction; amount not stated here
+  eligibility:
+    who: [veteran]
+    min_rating: 100
+    requires_homeowner: true
+    other_requirements:
+      - For the 2027 benefit, applicants must be Idaho residents, have a qualifying 100% service-connected disability or 100% individual-unemployability compensation as of January 1, 2027, and own and live in an Idaho primary residence before April 15, 2027. A homeowner's exemption must apply.
+  how_to_apply:
+    - Apply through the county assessor between January 1 and April 15, 2027, with current VA disability documentation. The state page says permanently and totally disabled recipients do not need to reapply annually.
+  application_url: https://tax.idaho.gov/taxes/property/homeowners/veteran-benefit/
+  source_url: https://tax.idaho.gov/taxes/property/homeowners/veteran-benefit/
+  source_name: Idaho State Tax Commission — Disabled Veteran Benefit
+  last_verified: 2026-11-05

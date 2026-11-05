@@ -1,0 +1,56 @@
+- id: in-disabled-veteran-property-tax-benefit
+  name: Disabled Veteran Property Tax Benefits
+  state: IN
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Eligible veterans may receive a deduction equal to the full assessed value of their principal residence.
+  value: Deduction equal to the full assessed value of the qualifying principal residence
+  eligibility:
+    who: [veteran]
+    requires_homeowner: true
+    discharge: [honorable]
+    other_requirements:
+      - Requires at least 90 days of service, a total disability, and at least one year of Indiana residence before the assessment date.
+  how_to_apply:
+    - Submit State Form 12662 through a county Veteran Service Officer, county auditor, or the Indiana Department of Veterans Affairs. The state page lists a DD-214 and VA disability award letter as required documents.
+  application_url: https://www.in.gov/dva/divisions/training-and-services/disabled-veteran-property-tax-deduction/
+  source_url: https://www.in.gov/dva/divisions/training-and-services/disabled-veteran-property-tax-deduction/
+  source_name: Indiana Department of Veterans' Affairs — Disabled Veteran Property Tax Benefits
+  last_verified: 2026-11-05
+- id: in-veteran-dependent-tuition-fee-exemption
+  name: Tuition and Fee Exemption
+  state: IN
+  scope: state
+  counties: all
+  category: education
+  summary: Provides eligible students up to 124 credit hours of tuition and fee exemption at state-supported schools.
+  value: Up to 124 credit hours of tuition and fees
+  eligibility:
+    who: [dependent_child]
+    other_requirements:
+      - Qualifying groups include certain children of Indiana veterans, Indiana Purple Heart recipients, and former students of the Indiana Soldiers' and Sailors' Home. Confirm the specific eligibility category with the state.
+  how_to_apply:
+    - Apply through ScholarTrack. Approved students must also file a FAFSA for each year they use the exemption.
+  application_url: https://www.in.gov/dva/divisions/training-and-services/tuition-and-fee-exemption/
+  source_url: https://www.in.gov/dva/divisions/training-and-services/tuition-and-fee-exemption/
+  source_name: Indiana Department of Veterans' Affairs — Tuition and Fee Exemption
+  last_verified: 2026-11-05
+- id: in-disabled-veteran-discounted-hunting-fishing-license
+  name: Disabled Veteran Discounted Hunting and Fishing License
+  state: IN
+  scope: state
+  counties: all
+  category: recreation
+  summary: Eligible Indiana residents may buy a discounted hunting and fishing license covering small game and fishing; stamps are excluded.
+  value: $2.75 for one year or $27.50 for ten years, as stated on the state page
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Indiana residency and qualifying military service and service-connected disability or military disability-retirement benefit are required.
+  how_to_apply:
+    - Submit State Form 50833 to the Department of Natural Resources by mail or in person.
+  application_url: https://www.in.gov/dva/divisions/training-and-services/disabled-veteran-discounted-hunting-and-fishing-license-and-golden-hoosier-passport/
+  source_url: https://www.in.gov/dva/divisions/training-and-services/disabled-veteran-discounted-hunting-and-fishing-license-and-golden-hoosier-passport/
+  source_name: Indiana Department of Veterans' Affairs — Disabled Veteran Discounted Hunting and Fishing License
+  last_verified: 2026-11-05

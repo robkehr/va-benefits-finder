@@ -1,0 +1,18 @@
+- id: me-veterans-property-tax-exemption
+  name: Veterans' Property Tax Exemption
+  state: ME
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Exempts up to $6,000 of just value for qualifying property at a veteran's place of residence.
+  value: Exemption of up to $6,000 of just value
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Eligibility includes veterans with qualifying wartime or expeditionary-medal service who are age 62 or older or receive federal compensation for total disability. A separate provision covers veterans with total service-connected disability who receive federal compensation. Review the statute for details.
+  how_to_apply:
+    - Contact the local assessor for application instructions; the statute does not specify a filing procedure.
+  application_url: https://legislature.maine.gov/statutes/36/title36sec653.html
+  source_url: https://legislature.maine.gov/statutes/36/title36sec653.html
+  source_name: "Maine Revised Statutes — Title 36, Section 653: Veterans' Exemptions"
+  last_verified: 2026-11-05

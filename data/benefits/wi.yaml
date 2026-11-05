@@ -1,0 +1,56 @@
+- id: wi-gi-bill
+  name: Wisconsin GI Bill
+  state: WI
+  scope: state
+  counties: all
+  category: education
+  summary: Provides eligible veterans and dependents tuition and segregated-fee remission at University of Wisconsin System or Wisconsin Technical College System schools.
+  value: Up to eight semesters or 128 credits, whichever is greater
+  eligibility:
+    who: [veteran, spouse, dependent_child]
+    discharge: [honorable]
+    other_requirements:
+      - Veteran eligibility includes Wisconsin residency and qualifying service or discharge circumstances. Review the program page for dependent eligibility and other rules.
+  how_to_apply:
+    - Apply through MyWisVets or submit the WDVA certification form and supporting documents.
+  application_url: https://dva.wi.gov/benefits/education/wi-gi-bill/
+  source_url: https://dva.wi.gov/benefits/education/wi-gi-bill/
+  source_name: Wisconsin Department of Veterans Affairs — Wisconsin GI Bill
+  last_verified: 2026-11-05
+- id: wi-returning-service-members-hunting-fishing-voucher
+  name: DNR Returning Service Members Voucher
+  state: WI
+  scope: state
+  counties: all
+  category: recreation
+  summary: Offers one free hunting or fishing license to an eligible recently returned Wisconsin-resident veteran who served during a qualifying war period.
+  value: One free hunting or fishing license
+  eligibility:
+    who: [veteran]
+    discharge: [honorable]
+    other_requirements:
+      - Must be a Wisconsin resident and have separated under honorable conditions within the past 365 days after qualifying service. Voucher redemption deadline rules apply.
+  how_to_apply:
+    - Apply using WDVA Form 2240 or MyWisVets, then redeem the voucher through DNR within 365 days of discharge.
+  application_url: https://dva.wi.gov/benefits/outdoor-rec-and-sports/hunting-fishing-license/
+  source_url: https://dva.wi.gov/benefits/outdoor-rec-and-sports/hunting-fishing-license/
+  source_name: Wisconsin Department of Veterans Affairs — Hunting and Fishing License
+  last_verified: 2026-11-05
+- id: wi-private-nonprofit-schools-grant
+  name: Wisconsin Veterans Private Nonprofit Schools Grant
+  state: WI
+  scope: state
+  counties: all
+  category: education
+  summary: Provides eligible students at private nonprofit schools a grant capped at the lesser of $2,000 per semester or 50% of tuition minus applicable federal education benefits; the institution must match the grant.
+  value: Lesser of $2,000 per semester or 50% of tuition less applicable federal education benefits; school match required
+  eligibility:
+    who: [veteran, spouse, dependent_child]
+    other_requirements:
+      - For dependent children, the page specifies an age range of 17–26. See the program page for remaining eligibility and matching-institution requirements.
+  how_to_apply:
+    - Submit the WDVA certification form and the student application to the Wisconsin Higher Educational Aids Board.
+  application_url: https://dva.wi.gov/benefits/education/private-nonprofit-schools-grant/
+  source_url: https://dva.wi.gov/benefits/education/private-nonprofit-schools-grant/
+  source_name: Wisconsin Department of Veterans Affairs — Wisconsin Veterans Private Nonprofit Schools Grant
+  last_verified: 2026-11-05

@@ -1,0 +1,38 @@
+- id: tx-hazlewood-act
+  name: Hazlewood Act
+  state: TX
+  scope: state
+  counties: all
+  category: education
+  summary: Provides eligible veterans up to 150 hours of tuition exemption, including most fees, at Texas public institutions of higher education. It does not cover living expenses, books, or supplies; eligible veterans may be able to share unused hours with a child.
+  value: Up to 150 credit hours of tuition and most fees
+  eligibility:
+    who: [veteran, dependent_child]
+    discharge: [honorable, general]
+    other_requirements:
+      - The veteran must meet Texas residency and entry requirements, have at least 181 days of active duty excluding initial entry training, and meet other service, aid, course, and academic-progress rules. A general discharge must be under honorable conditions.
+  how_to_apply:
+    - Be accepted by a Texas public college, register for a Hazlewood account, then submit the application packet and required documents to the college by its deadlines.
+  application_url: https://www.tvc.texas.gov/education/hazlewood/
+  source_url: https://www.tvc.texas.gov/education/hazlewood/
+  source_name: Texas Veterans Commission — Hazlewood Act
+  last_verified: 2026-11-05
+- id: tx-disabled-veteran-residence-homestead-exemption
+  name: 100% Disabled Veteran Residence Homestead Exemption
+  state: TX
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Exempts the total appraised value of a qualifying residence homestead from property tax.
+  value: Exemption of the total appraised value of a qualifying residence homestead
+  eligibility:
+    who: [veteran, surviving_spouse]
+    requires_homeowner: true
+    other_requirements:
+      - The veteran must receive VA disability compensation at the 100% rate due to a 100% disability rating or individual unemployability. A surviving spouse may qualify under the conditions on the official page.
+  how_to_apply:
+    - Submit a Residence Homestead Application to the local appraisal district. The stated deadline is April 30; the official FAQ describes late-filing rules.
+  application_url: https://comptroller.texas.gov/taxes/property-tax/exemptions/disabledvet-100-faq.php
+  source_url: https://comptroller.texas.gov/taxes/property-tax/exemptions/disabledvet-100-faq.php
+  source_name: Texas Comptroller — 100% Disabled Veteran Residence Homestead Exemption FAQ
+  last_verified: 2026-11-05

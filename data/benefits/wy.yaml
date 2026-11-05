@@ -1,0 +1,36 @@
+- id: wy-veterans-property-tax-exemption
+  name: Veterans Property Tax Exemption
+  state: WY
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Lowers the assessed value of eligible property by $3,000. If the exemption is not used on property, it may be applied to a vehicle licensing fee.
+  value: $3,000 reduction in assessed value, or possible application to a vehicle licensing fee
+  eligibility:
+    who: [veteran, surviving_spouse]
+    other_requirements:
+      - Requires at least three years of Wyoming residency and DD Form 214 or equivalent. Qualifying service includes specified wartime or overseas service, or a compensable service-connected disability. Certain surviving spouses who live in Wyoming and have not remarried may qualify.
+  how_to_apply:
+    - Apply at the county assessor's office between January 1 and the fourth Monday in May.
+  application_url: https://www.wyomilitary.wyo.gov/resources/veteran/benefits-resources-military-records/
+  source_url: https://www.wyomilitary.wyo.gov/resources/veteran/benefits-resources-military-records/
+  source_name: Wyoming Military Department — Benefits, Resources and Military Records
+  last_verified: 2026-11-05
+- id: wy-disabled-veteran-donated-big-game-license
+  name: Reissuance of Donated Big-Game Licenses to Disabled Veterans
+  state: WY
+  scope: state
+  counties: all
+  category: recreation
+  summary: Wyoming law allows an unused, valid big-game license to be surrendered for reissuance to a disabled veteran selected and sponsored by a qualifying nonprofit organization. This is a donated-license pathway, not an automatic license entitlement.
+  value: Donated big-game license, if selected and sponsored
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - Must be a disabled veteran selected and sponsored by a qualifying nonprofit organization providing hunting opportunities for disabled veterans or wheelchair users. Confirm the current license rules with the state wildlife agency.
+  how_to_apply:
+    - Contact a qualifying nonprofit hunting organization about selection and sponsorship; the state page does not provide direct application instructions.
+  application_url: https://wgfd.wyo.gov/licenses-applications/licensing-veterans
+  source_url: https://wgfd.wyo.gov/licenses-applications/licensing-veterans
+  source_name: Wyoming Game and Fish Department — Licensing Veterans
+  last_verified: 2026-11-05

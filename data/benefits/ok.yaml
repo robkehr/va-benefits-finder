@@ -1,0 +1,59 @@
+- id: ok-disabled-veteran-property-tax-exemption
+  name: Disabled Veteran Property Tax Exemption
+  state: OK
+  scope: state
+  counties: all
+  category: property_tax
+  summary: Exempts a qualifying Oklahoma veteran's homestead from property tax.
+  value: Homestead property-tax exemption
+  eligibility:
+    who: [veteran]
+    min_rating: 100
+    p_and_t: true
+    requires_homeowner: true
+    discharge: [honorable]
+    other_requirements:
+      - Applicant must be an Oklahoma resident. The disability must be permanent and service-connected and certified by the VA; the source describes qualifying causes related to military service.
+  how_to_apply:
+    - Contact the Oklahoma Department of Veterans Affairs for help obtaining the VA certification letter and confirm filing steps with the local assessor.
+  application_url: https://oklahoma.gov/okstep/claims-benefits/state-benefits.html
+  source_url: https://oklahoma.gov/okstep/claims-benefits/state-benefits.html
+  source_name: Oklahoma — State Benefits
+  last_verified: 2026-11-05
+- id: ok-veteran-state-parks-museums-admission
+  name: Free Admission to State Parks and Museums
+  state: OK
+  scope: state
+  counties: all
+  category: recreation
+  summary: Provides free admission to state-owned or state-operated parks and museums for qualifying veterans.
+  value: Free admission
+  eligibility:
+    who: [veteran]
+    discharge: [honorable]
+    other_requirements:
+      - Must be a current Oklahoma resident.
+  how_to_apply:
+    - Present a valid Oklahoma driver license or state photo ID and a DD-214 or similar evidence of honorable discharge.
+  application_url: https://oklahoma.gov/okstep/claims-benefits/state-benefits.html
+  source_url: https://oklahoma.gov/okstep/claims-benefits/state-benefits.html
+  source_name: Oklahoma — State Benefits
+  last_verified: 2026-11-05
+- id: ok-disabled-veteran-hunting-fishing-permits
+  name: Disabled Veteran Hunting and Fishing Permits
+  state: OK
+  scope: state
+  counties: all
+  category: recreation
+  summary: Provides a free hunting and fishing permit and Wildlife Land Stamp exemption for qualifying resident veterans. The state page also describes a purchasable disability lifetime combination license.
+  value: Free permit and stamp exemption for qualifying veterans; other license options may have a fee
+  eligibility:
+    who: [veteran]
+    other_requirements:
+      - The free-permit provision applies to legal resident veterans with a disability of 60% or more. VA certification is specified for the lifetime combination license; confirm which option applies.
+  how_to_apply:
+    - Review the Oklahoma state-benefits page and confirm current permit application instructions with the relevant state agency.
+  application_url: https://oklahoma.gov/okstep/claims-benefits/state-benefits.html
+  source_url: https://oklahoma.gov/okstep/claims-benefits/state-benefits.html
+  source_name: Oklahoma — State Benefits
+  last_verified: 2026-11-05
