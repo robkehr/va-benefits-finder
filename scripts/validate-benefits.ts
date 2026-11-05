@@ -84,13 +84,13 @@ if (existsSync(countiesDirectory)) {
       countyErrors = true;
     }
 
-    const names = new Set<string>();
+    const fipsSeen = new Set<string>();
     for (const county of counties) {
-      if (names.has(county.name)) {
-        console.error(`${fileName} has duplicate county ${county.name}.`);
+      if (fipsSeen.has(county.fips)) {
+        console.error(`${fileName} has duplicate county FIPS ${county.fips} (${county.name}).`);
         countyErrors = true;
       }
-      names.add(county.name);
+      fipsSeen.add(county.fips);
       if (fipsPrefix && !county.fips.startsWith(fipsPrefix)) {
         console.error(`${fileName}: county ${county.name} FIPS ${county.fips} does not match state ${state}.`);
         countyErrors = true;
