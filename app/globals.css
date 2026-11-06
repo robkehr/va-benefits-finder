@@ -281,10 +281,14 @@ a {
 
 .county-map {
   margin-top: 0.5rem;
+  display: block;
+  max-width: 100%;
 }
 
 .county-map-frame {
   position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
 }
 
 .county-zoom-controls {

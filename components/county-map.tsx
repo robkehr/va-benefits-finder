@@ -201,9 +201,10 @@ export function CountyMap({
             </>
           ) : (
             <p>
-              We have not yet verified a county-level veteran benefit program for {selected.name} County.
-              Contact the {selected.name} County veterans affairs office or county assessor for current
-              local programs, including any property-tax relief for disabled veterans.
+              {selected.name} County does not have any county-specific veteran benefits listed yet.
+              Statewide benefits above still apply here. For anything local — like county property-tax
+              relief for disabled veterans — contact the {selected.name} County veterans affairs office
+              or county assessor.
             </p>
           )}
           {selected.notes && <p className="benefit-meta">{selected.notes}</p>}
