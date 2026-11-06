@@ -5,5 +5,7 @@ export const stateFips: Record<string, string> = {
   MO: "29", MT: "30", NE: "31", NV: "32", NH: "33", NJ: "34", NM: "35", NY: "36",
   NC: "37", ND: "38", OH: "39", OK: "40", OR: "41", PA: "42", RI: "44", SC: "45",
   SD: "46", TN: "47", TX: "48", UT: "49", VT: "50", VA: "51", WA: "53", WV: "54",
-  WI: "55", WY: "56"
+  WI: "55", WY: "56",
+  // Territories
+  PR: "72", GU: "66", VI: "78", AS: "60", MP: "69"
 };

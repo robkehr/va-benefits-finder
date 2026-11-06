@@ -6,7 +6,10 @@ import type { Benefit } from "@/lib/benefit-schema";
 import type { StateCountyData } from "@/lib/county-schema";
 import { gradeForRank } from "@/lib/state-grade";
 import { rankingSource, type StateRanking } from "@/data/state-rankings";
+import { territories } from "@/data/territories";
 import { CountyMap } from "@/components/county-map";
+
+const territoryNames = new Map(territories.map((t) => [t.abbreviation, t.name]));
 
 const categoryNames: Record<Benefit["category"], string> = {
   property_tax: "Property tax",
@@ -64,7 +67,7 @@ export function BenefitCategories({
   const searchParams = useSearchParams();
   const stateCode = searchParams.get("state")?.toUpperCase() ?? "PA";
   const ranking = rankings.find(({ abbreviation }) => abbreviation === stateCode);
-  const stateName = ranking?.name ?? stateCode;
+  const stateName = ranking?.name ?? territoryNames.get(stateCode) ?? stateCode;
   const benefits = benefitsByState[stateCode] ?? [];
   const countyData = countyDataByState[stateCode];
   const groupedBenefits = categoryOrder

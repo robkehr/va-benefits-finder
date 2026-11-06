@@ -1,0 +1,3 @@
+state: GU
+counties:
+  - { name: "Guam", fips: "66010", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }

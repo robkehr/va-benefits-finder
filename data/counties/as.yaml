@@ -1,0 +1,5 @@
+state: AS
+counties:
+  - { name: "Eastern", fips: "60010", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Manu'a", fips: "60020", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Western", fips: "60050", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }

@@ -40,7 +40,11 @@ const projectionByState: Record<string, { center: [number, number]; scale: numbe
   TX: { center: [-99.3, 31.5], scale: 1600 }, UT: { center: [-111.6, 39.3], scale: 3000 },
   VT: { center: [-72.6, 44.1], scale: 9000 }, VA: { center: [-78.7, 37.5], scale: 4400 },
   WA: { center: [-120.7, 47.4], scale: 3200 }, WV: { center: [-80.6, 38.6], scale: 5600 },
-  WI: { center: [-89.8, 44.6], scale: 3600 }, WY: { center: [-107.6, 43.0], scale: 2800 }
+  WI: { center: [-89.8, 44.6], scale: 3600 }, WY: { center: [-107.6, 43.0], scale: 2800 },
+  // Territories
+  PR: { center: [-66.4, 18.2], scale: 14000 }, GU: { center: [144.8, 13.4], scale: 40000 },
+  VI: { center: [-64.8, 18.0], scale: 40000 }, AS: { center: [-170.7, -14.3], scale: 30000 },
+  MP: { center: [145.7, 15.2], scale: 12000 }
 };
 
 export function CountyMap({

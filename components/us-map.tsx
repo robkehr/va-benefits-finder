@@ -8,6 +8,7 @@ import {
   Geography
 } from "react-simple-maps";
 import { stateRankings } from "@/data/state-rankings";
+import { territories, territoriesByName } from "@/data/territories";
 import { gradeForRank } from "@/lib/state-grade";
 
 const GEO_URL = "/us-states.json";
@@ -21,10 +22,12 @@ export function USMap() {
 
   function selectState(name: string) {
     const ranking = rankingsByName.get(name);
-    if (!ranking) return;
+    const territory = territoriesByName.get(name);
+    const abbreviation = ranking?.abbreviation ?? territory?.abbreviation;
+    if (!abbreviation) return;
 
-    setSelectedState(ranking.abbreviation);
-    router.push(`/check?state=${ranking.abbreviation}`);
+    setSelectedState(abbreviation);
+    router.push(`/check?state=${abbreviation}`);
   }
 
   return (
@@ -33,12 +36,14 @@ export function USMap() {
         {hoveredState ? (
           <span role="tooltip">
             {hoveredState}
-            {hoveredRanking && (
+            {hoveredRanking ? (
               <>
                 {" · Rank #"}{hoveredRanking.rank}
                 {" · Grade "}{gradeForRank(hoveredRanking.rank)}
               </>
-            )}
+            ) : territoriesByName.has(hoveredState) ? (
+              " · Territory"
+            ) : null}
           </span>
         ) : (
           <span aria-hidden="true">&nbsp;</span>
@@ -56,15 +61,22 @@ export function USMap() {
         <Geographies geography={GEO_URL}>
           {({ geographies }) =>
             geographies
-              .filter((geography) => rankingsByName.has(geography.properties.name as string))
+              .filter((geography) => {
+                const name = geography.properties.name as string;
+                return rankingsByName.has(name) || territoriesByName.has(name);
+              })
               .map((geography) => {
                 const name = geography.properties.name as string;
                 const ranking = rankingsByName.get(name);
-                if (!ranking) return null;
+                const territory = territoriesByName.get(name);
+                const abbreviation = ranking?.abbreviation ?? territory?.abbreviation;
+                if (!abbreviation) return null;
 
-                const abbreviation = ranking.abbreviation;
                 const isSelected = selectedState === abbreviation;
                 const isHovered = hoveredState === name;
+                const ariaLabel = ranking
+                  ? `${name}, rank ${ranking.rank} of 50, grade ${gradeForRank(ranking.rank)}; view state benefits`
+                  : `${name}, US territory; view benefits`;
 
                 return (
                   <Geography
@@ -72,7 +84,7 @@ export function USMap() {
                     geography={geography}
                     role="button"
                     tabIndex={0}
-                    aria-label={`${name}, rank ${ranking.rank} of 50, grade ${gradeForRank(ranking.rank)}; view state benefits`}
+                    aria-label={ariaLabel}
                     aria-pressed={isSelected}
                     className="state-shape"
                     onMouseEnter={() => {
@@ -129,6 +141,19 @@ export function USMap() {
           . It measures overall retirement conditions, not state benefits alone. Grades
           are our own rank bands. Accessed 2026-11-05; D.C. excluded.
         </p>
+      </section>
+      <section className="ranking-list territory-list" aria-labelledby="territory-list-title">
+        <h2 id="territory-list-title">US territories</h2>
+        <p>Territories aren&apos;t in the 50-state ranking. Select one to browse its benefits.</p>
+        <ul>
+          {territories.map((territory) => (
+            <li key={territory.abbreviation}>
+              <button type="button" onClick={() => selectState(territory.name)}>
+                {territory.name}
+              </button>
+            </li>
+          ))}
+        </ul>
       </section>
     </div>
   );

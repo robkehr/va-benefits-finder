@@ -145,6 +145,37 @@ a {
   background: #fecaca;
 }
 
+.territory-list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 0.4rem 1rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.territory-list button {
+  width: 100%;
+  min-height: 2.5rem;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 0.4rem;
+  background: rgb(255 255 255 / 8%);
+  color: #ffffff;
+  font-size: 0.95rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.territory-list button:hover {
+  background: #dc2626;
+}
+
+.territory-list button:focus-visible {
+  outline: 3px solid #fbbf24;
+  outline-offset: 2px;
+}
+
 .check-page {
   display: grid;
   min-height: 100vh;

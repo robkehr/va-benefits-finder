@@ -1,0 +1,5 @@
+state: VI
+counties:
+  - { name: "St. Croix", fips: "78010", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "St. John", fips: "78020", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "St. Thomas", fips: "78030", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }

@@ -1,0 +1,80 @@
+state: PR
+counties:
+  - { name: "Adjuntas", fips: "72001", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Aguada", fips: "72003", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Aguadilla", fips: "72005", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Aguas Buenas", fips: "72007", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Aibonito", fips: "72009", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Añasco", fips: "72011", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Arecibo", fips: "72013", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Arroyo", fips: "72015", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Barceloneta", fips: "72017", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Barranquitas", fips: "72019", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Bayamón", fips: "72021", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Cabo Rojo", fips: "72023", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Caguas", fips: "72025", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Camuy", fips: "72027", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Canóvanas", fips: "72029", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Carolina", fips: "72031", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Cataño", fips: "72033", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Cayey", fips: "72035", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Ceiba", fips: "72037", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Ciales", fips: "72039", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Cidra", fips: "72041", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Coamo", fips: "72043", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Comerío", fips: "72045", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Corozal", fips: "72047", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Culebra", fips: "72049", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Dorado", fips: "72051", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Fajardo", fips: "72053", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Florida", fips: "72054", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Guánica", fips: "72055", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Guayama", fips: "72057", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Guayanilla", fips: "72059", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Guaynabo", fips: "72061", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Gurabo", fips: "72063", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Hatillo", fips: "72065", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Hormigueros", fips: "72067", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Humacao", fips: "72069", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Isabela", fips: "72071", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Jayuya", fips: "72073", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Juana Díaz", fips: "72075", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Juncos", fips: "72077", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Lajas", fips: "72079", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Lares", fips: "72081", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Las Marías", fips: "72083", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Las Piedras", fips: "72085", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Loíza", fips: "72087", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Luquillo", fips: "72089", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Manatí", fips: "72091", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Maricao", fips: "72093", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Maunabo", fips: "72095", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Mayagüez", fips: "72097", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Moca", fips: "72099", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Morovis", fips: "72101", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Naguabo", fips: "72103", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Naranjito", fips: "72105", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Orocovis", fips: "72107", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Patillas", fips: "72109", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Peñuelas", fips: "72111", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Ponce", fips: "72113", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Quebradillas", fips: "72115", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Rincón", fips: "72117", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Río Grande", fips: "72119", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Sabana Grande", fips: "72121", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Salinas", fips: "72123", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "San Germán", fips: "72125", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "San Juan", fips: "72127", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "San Lorenzo", fips: "72129", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "San Sebastián", fips: "72131", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Santa Isabel", fips: "72133", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Toa Alta", fips: "72135", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Toa Baja", fips: "72137", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Trujillo Alto", fips: "72139", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Utuado", fips: "72141", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Vega Alta", fips: "72143", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Vega Baja", fips: "72145", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Vieques", fips: "72147", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Villalba", fips: "72149", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Yabucoa", fips: "72151", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Yauco", fips: "72153", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }

@@ -1,0 +1,6 @@
+state: MP
+counties:
+  - { name: "Northern Islands", fips: "69085", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Rota", fips: "69100", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Saipan", fips: "69110", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }
+  - { name: "Tinian", fips: "69120", income_limit: null, exemption: "County-level veteran benefits not yet verified", notes: null, source_url: null, source_name: null, last_verified: null }

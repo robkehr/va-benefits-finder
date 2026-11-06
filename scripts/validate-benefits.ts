@@ -4,9 +4,13 @@ import { benefitsSchema, type Benefit } from "../lib/benefit-schema";
 import { stateCountyDataSchema } from "../lib/county-schema";
 import { stateFips } from "../lib/state-fips";
 import { stateRankings } from "../data/state-rankings";
+import { territories } from "../data/territories";
 
 const directory = new URL("../data/benefits/", import.meta.url);
-const expectedStates = new Set(stateRankings.map(({ abbreviation }) => abbreviation.toLowerCase()));
+const expectedStates = new Set([
+  ...stateRankings.map(({ abbreviation }) => abbreviation.toLowerCase()),
+  ...territories.map(({ abbreviation }) => abbreviation.toLowerCase())
+]);
 const files = readdirSync(directory).filter((fileName) => fileName.endsWith(".yaml"));
 const actualStates = new Set(files.map((fileName) => fileName.slice(0, -5)));
 const missingStates = [...expectedStates].filter((state) => !actualStates.has(state));
